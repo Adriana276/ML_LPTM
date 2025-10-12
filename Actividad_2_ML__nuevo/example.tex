@@ -1,0 +1,589 @@
+% Template:     Informe LaTeX
+% Documento:    Archivo de ejemplo
+% Versión:      8.1.7 (24/07/2022)
+% Codificación: UTF-8
+%
+% Autor: Pablo Pizarro R.
+%        pablo@ppizarror.com
+%
+% Manual template: [https://latex.ppizarror.com/informe]
+% Licencia MIT:    [https://opensource.org/licenses/MIT]
+
+% ------------------------------------------------------------------------------
+% NUEVA SECCIÓN
+% ------------------------------------------------------------------------------
+% Las secciones se inician con \section, si se quiere una sección sin número se
+% pueden usar las funciones \sectionanum (sección sin número) o la función
+% \sectionanumnoi para crear el mismo título sin numerar y sin aparecer en el índice
+\section{Plot de Datos Tomados - General}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\linewidth]{cccc.png}
+    \caption{Enter Caption}
+    \label{fig:placeholder}
+\end{figure}
+
+\section{KERNEL RIDGE - Curva de Validación de los datos}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{entreamiento-humedad.png}
+    \caption{Curva de Validación del Modelo para Humedad}
+    \label{fig:val_humedad}
+\end{figure}
+
+\noindent Mejor gamma para Humedad: 0.100000
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{curav de validacion temperatura.png}
+    \caption{Curva de Validación del Modelo para Temperatura}
+    \label{fig:placeholder}
+\end{figure}
+
+
+\noindent Mejor gamma para Temperatura: 0.000001
+
+\section{KERNEL RIDGE - Gráfica de Pariedad de los datos}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{grarfica de pariedad.png}
+    \caption{Gráfica de pariedad de la Humedad real vs la predicha}
+    \label{fig:pariedad_humedad}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO PARA HUMEDAD}\\
+MSE Entrenamiento (Humedad): 4.7960\\
+MSE Validación (Humedad): 5.7546\\
+R\textsuperscript{2} Validación (Humedad): 0.5157\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{pariedad temperatura.png}
+    \caption{Gráfica de pariedad de la Temperatura real vs la predicha}
+    \label{fig:placeholder}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO PARA TEMPERATURA}\\
+MSE Entrenamiento (Temperatura): 1.1788\\
+MSE Validación (Temperatura): 1.4142\\
+R\textsuperscript{2} Validación (Temperatura): -1.6287\\
+
+\section{KERNEL RIDGE - Curvas de aprendizaje}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{curva de aprendizaje.png}
+    \caption{Curvas de aprendizaje de la Humedad y Temperatura}
+    \label{fig:curvas_aprendizaje}
+\end{figure}
+
+\subsection{Análisis de las curvas de aprendizaje}
+
+\noindent \textbf{HUMEDAD:}\\
+- MSE Final Entrenamiento: 4.5065\\
+- MSE Final Validación: 7.8341\\
+- Diagnóstico: SUBAJUSTE\\
+
+\noindent \textbf{TEMPERATURA:}\\
+- MSE Final Entrenamiento: 1.1513\\
+- MSE Final Validación: 2.2288\\
+- Diagnóstico: SUBAJUSTE\\
+
+\noindent \textbf{INTERPRETACIÓN:}\\
+• Si las curvas CONVERGEN: Modelo generaliza bien\\
+• Si hay BRECHA grande: Posible sobreajuste\\
+• Si ambas son ALTAS: Posible subajuste\\
+• Áreas sombreadas: Variabilidad (1 desviación estándar)\\
+
+\section{KERNEL RIDGE - Compromiso Sesgo-Varianza}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{descargar.png}
+    \caption{Compromiso Sesgo-Varianza de la Temperatura}
+    \label{fig:sesgo_varianza_temp}
+\end{figure}
+
+\noindent Mejor gamma encontrado: 0.0129\\
+MSE validación mínimo: 23.7237\\
+MSE entrenamiento correspondiente: 21.4689\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{compromiso ses-variance humedad.png}
+    \caption{Compromiso Sesgo-Varianza de la Humedad}
+    \label{fig:sesgo_varianza_humedad}
+\end{figure}
+
+
+
+\noindent \textbf{DIAGNÓSTICO}\\
+• Mejor gamma: 0.138950\\
+• MSE validación mínimo: 7.1422\\
+• MSE entrenamiento correspondiente: 3.6402\\
+
+\noindent \textbf{Diagnóstico del problema:} SOBREAJUSTE\\
+El modelo se ajusta demasiado a los datos de entrenamiento\\
+
+\noindent \textbf{Comportamiento de gamma:}\\
+• Gamma pequeño (<0.0052): Modelo muy simple (alto sesgo)\\
+• Gamma óptimo (~0.1389): Balance ideal\\
+• Gamma grande (>19.31): Modelo muy complejo (alta varianza)\\
+
+
+
+\section{KERNEL RIDGE - Temperatura}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{2.png}
+    \caption{CPredicciones del modelo Kernel Ridge}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.png}
+    \caption{Comparación visual entre valores reales y predichos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{eeeeeee.png}
+    \caption{Distribución de errores del modelo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{5.png}
+    \caption{}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo Kernel Ridge}
+    \begin{tabular}{@{}lc@{}}
+        \toprule
+        \textbf{Métrica} & \textbf{Kernel Ridge} \\
+        \midrule
+        MSE (Test) & 0.0330 \\
+        R\textsuperscript{2} (Test) & 0.8488 \\
+        Error Promedio (°C) & 0.0436 \\
+        Error Máximo (°C) & 0.7905 \\
+        Error Mínimo (°C) & 0.0003 \\
+        Desviación Estándar del Error & 0.0748 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+%%%%%%%%%%%%%%
+\section{KERNEL RIDGE - Humedad}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{naaaa.png}
+    \caption{VISUALIZACIÓN COMPLETA CON TODOS LOS DATOS}
+    \label{fig:placeholder}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{nddddssd.png}
+    \caption{Mejor modelo tomado, regresion lineal, comparacion de humedad predicha vs humedad real}
+    \label{fig:placeholder}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{xxxx.png}
+    \caption{Evolución del error en el tiempo}
+    \label{fig:placeholder}
+\end{figure}
+
+
+
+\noindent ESTADÍSTICAS DETALLADAS\\
+R² en prueba: 0.9737\\
+Error absoluto promedio: 0.0692%\\
+Error máximo: 0.3572%\\
+Error mínimo: 0.0002%\\
+Desviación estándar del error: 0.0625%\\
+
+% ======================= REGRESIÓN LINEAL =======================
+
+\section{Regresión Lineal - Temperatura}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_lineal_temp.png}
+    \caption{Curva de Validación del Modelo Lineal para Temperatura}
+    \label{fig:val_lineal_temp}
+\end{figure}
+
+% Espacio para comentar el mejor hiperparámetro
+\noindent Mejor configuración: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_lineal_temp.png}
+    \caption{Curva de paridad de la Temperatura real vs la predicha (Lineal)}
+    \label{fig:paridad_lineal_temp}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO LINEAL PARA TEMPERATURA}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_lineal_temp.png}
+    \caption{Curva de aprendizaje para Temperatura (Lineal)}
+    \label{fig:apr_lineal_temp}
+\end{figure}
+
+% Espacio para análisis
+\noindent Comentario/análisis: ...\\
+
+% ======================= REGRESIÓN LINEAL - HUMEDAD =======================
+
+\section{Regresión Lineal - Humedad}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_lineal_hum.png}
+    \caption{Curva de Validación del Modelo Lineal para Humedad}
+    \label{fig:val_lineal_hum}
+\end{figure}
+
+\noindent Mejor configuración: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_lineal_hum.png}
+    \caption{Curva de paridad de la Humedad real vs la predicha (Lineal)}
+    \label{fig:paridad_lineal_hum}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO LINEAL PARA HUMEDAD}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_lineal_hum.png}
+    \caption{Curva de aprendizaje para Humedad (Lineal)}
+    \label{fig:apr_lineal_hum}
+\end{figure}
+
+\noindent Comentario/análisis: ...\\
+
+% ======================= REGRESIÓN POLINÓMICA =======================
+
+\section{Regresión Polinómica - Temperatura}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_poly_temp.png}
+    \caption{Curva de Validación del Modelo Polinómico para Temperatura}
+    \label{fig:val_poly_temp}
+\end{figure}
+
+\noindent Mejor grado: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_poly_temp.png}
+    \caption{Curva de paridad de la Temperatura real vs la predicha (Polinómica)}
+    \label{fig:paridad_poly_temp}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO POLINÓMICO PARA TEMPERATURA}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_poly_temp.png}
+    \caption{Curva de aprendizaje para Temperatura (Polinómica)}
+    \label{fig:apr_poly_temp}
+\end{figure}
+
+\noindent Comentario/análisis: ...\\
+
+% ======================= REGRESIÓN POLINÓMICA - HUMEDAD =======================
+
+\section{Regresión Polinómica - Humedad}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_poly_hum.png}
+    \caption{Curva de Validación del Modelo Polinómico para Humedad}
+    \label{fig:val_poly_hum}
+\end{figure}
+
+\noindent Mejor grado: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_poly_hum.png}
+    \caption{Curva de paridad de la Humedad real vs la predicha (Polinómica)}
+    \label{fig:paridad_poly_hum}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO POLINÓMICO PARA HUMEDAD}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_poly_hum.png}
+    \caption{Curva de aprendizaje para Humedad (Polinómica)}
+    \label{fig:apr_poly_hum}
+\end{figure}
+
+\noindent Comentario/análisis: ...\\
+
+% ======================= RIDGE =======================
+
+\section{Ridge - Temperatura}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_ridge_temp.png}
+    \caption{Curva de Validación del Modelo Ridge para Temperatura}
+    \label{fig:val_ridge_temp}
+\end{figure}
+
+\noindent Mejor alpha: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_ridge_temp.png}
+    \caption{Curva de paridad de la Temperatura real vs la predicha (Ridge)}
+    \label{fig:paridad_ridge_temp}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO RIDGE PARA TEMPERATURA}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_ridge_temp.png}
+    \caption{Curva de aprendizaje para Temperatura (Ridge)}
+    \label{fig:apr_ridge_temp}
+\end{figure}
+
+\noindent Comentario/análisis: ...\\
+
+% ======================= RIDGE - HUMEDAD =======================
+
+\section{Ridge - Humedad}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_ridge_hum.png}
+    \caption{Curva de Validación del Modelo Ridge para Humedad}
+    \label{fig:val_ridge_hum}
+\end{figure}
+
+\noindent Mejor alpha: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_ridge_hum.png}
+    \caption{Curva de paridad de la Humedad real vs la predicha (Ridge)}
+    \label{fig:paridad_ridge_hum}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO RIDGE PARA HUMEDAD}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_ridge_hum.png}
+    \caption{Curva de aprendizaje para Humedad (Ridge)}
+    \label{fig:apr_ridge_hum}
+\end{figure}
+
+\noindent Comentario/análisis: ...\\
+
+% ======================= LASSO =======================
+
+\section{Lasso - Temperatura}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_lasso_temp.png}
+    \caption{Curva de Validación del Modelo Lasso para Temperatura}
+    \label{fig:val_lasso_temp}
+\end{figure}
+
+\noindent Mejor alpha: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_lasso_temp.png}
+    \caption{Curva de paridad de la Temperatura real vs la predicha (Lasso)}
+    \label{fig:paridad_lasso_temp}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO LASSO PARA TEMPERATURA}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_lasso_temp.png}
+    \caption{Curva de aprendizaje para Temperatura (Lasso)}
+    \label{fig:apr_lasso_temp}
+\end{figure}
+
+\noindent Comentario/análisis: ...\\
+
+% ======================= LASSO - HUMEDAD =======================
+
+\section{Lasso - Humedad}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_lasso_hum.png}
+    \caption{Curva de Validación del Modelo Lasso para Humedad}
+    \label{fig:val_lasso_hum}
+\end{figure}
+
+\noindent Mejor alpha: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_lasso_hum.png}
+    \caption{Curva de paridad de la Humedad real vs la predicha (Lasso)}
+    \label{fig:paridad_lasso_hum}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO LASSO PARA HUMEDAD}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_lasso_hum.png}
+    \caption{Curva de aprendizaje para Humedad (Lasso)}
+    \label{fig:apr_lasso_hum}
+\end{figure}
+
+\noindent Comentario/análisis: ...\\
+
+% ======================= ELASTICNET =======================
+
+\section{ElasticNet - Temperatura}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_enet_temp.png}
+    \caption{Curva de Validación del Modelo ElasticNet para Temperatura}
+    \label{fig:val_enet_temp}
+\end{figure}
+
+\noindent Mejor alpha/l1	extunderscore ratio: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_enet_temp.png}
+    \caption{Curva de paridad de la Temperatura real vs la predicha (ElasticNet)}
+    \label{fig:paridad_enet_temp}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO ELASTICNET PARA TEMPERATURA}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_enet_temp.png}
+    \caption{Curva de aprendizaje para Temperatura (ElasticNet)}
+    \label{fig:apr_enet_temp}
+\end{figure}
+
+\noindent Comentario/análisis: ...\\
+
+% ======================= ELASTICNET - HUMEDAD =======================
+
+\section{ElasticNet - Humedad}
+
+% Curva de validación
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_enet_hum.png}
+    \caption{Curva de Validación del Modelo ElasticNet para Humedad}
+    \label{fig:val_enet_hum}
+\end{figure}
+
+\noindent Mejor alpha/l1	extunderscore ratio: ...\\
+
+% Curva de paridad
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_enet_hum.png}
+    \caption{Curva de paridad de la Humedad real vs la predicha (ElasticNet)}
+    \label{fig:paridad_enet_hum}
+\end{figure}
+
+\noindent \textbf{ENTRENANDO MODELO ELASTICNET PARA HUMEDAD}\\
+MSE Entrenamiento: ...\\
+MSE Validación: ...\\
+R\textsuperscript{2} Validación: ...\\
+
+% Curva de aprendizaje
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/aprendizaje_enet_hum.png}
+    \caption{Curva de aprendizaje para Humedad (ElasticNet)}
+    \label{fig:apr_enet_hum}
+\end{figure}
+
+\noindent Comentario/análisis: ...\\
+
+

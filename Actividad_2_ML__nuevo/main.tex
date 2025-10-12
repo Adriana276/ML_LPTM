@@ -1,0 +1,87 @@
+% Template:     Informe LaTeX
+% Documento:    Archivo principal
+% Versión:      8.1.7 (24/07/2022)
+% Codificación: UTF-8
+%
+% Autor: Pablo Pizarro R.
+%        pablo@ppizarror.com
+%
+% Manual template: [https://latex.ppizarror.com/informe]
+% Licencia MIT:    [https://opensource.org/licenses/MIT]
+
+% CREACIÓN DEL DOCUMENTO
+\documentclass[
+	spanish, % Idioma: spanish, english, etc.
+	a4 paper, oneside
+]{article}
+\usepackage{amssymb, amsmath}
+% INFORMACIÓN DEL DOCUMENTO
+\def\documentsubject {}
+
+
+\def\documenttitle {Predicción de temperatura humedad con ESP32}
+\def\documentsubtitle {Actividad }
+
+
+\def\documentauthor {Norka Apaza}
+\def\coursename {Robotica}
+\def\coursecode {}
+
+\def\universityname {Universidad Católica San Pablo}
+\def\universityfaculty {Facultad de Ingeniería Eléctrica y Electrónica}
+\def\universitydepartment {Escuela profesional de Ingenieria Mecatrónica}
+\def\universitydepartmentimage {departamentos/dimec}
+\def\universitydepartmentimagecfg {height=2.10cm}
+\def\universitylocation {Arequipa - Perú}
+
+% INTEGRANTES, PROFESORES Y FECHAS
+\def\authortable {
+\begin{tabular}{ll}
+	Integrantes:
+	& \begin{tabular}[t]{l}
+Apaza Lazarte, Norka Karelia\\
+Código: 212-25-53722\\
+Mamani Carazas, Adriana Gabriela\\
+Código: 231-25-60810\\
+       	\end{tabular} \\\\
+	Profesor:
+	& \begin{tabular}[t]{l}
+		 -\\
+	\end{tabular} \\ \\
+
+
+
+
+	\multicolumn{2}{l}{Fecha de realización: 10 de octubre del 2025} \\
+	\multicolumn{2}{l}{Fecha de entrega: 10 de octubre del 2025} \\
+	\multicolumn{2}{l}{\universitylocation}
+\end{tabular}
+}
+
+% IMPORTACIÓN DEL TEMPLATE
+\input{template}
+
+% INICIO DE PÁGINAS
+\begin{document}
+	
+% PORTADA
+\templatePortrait
+
+% CONFIGURACIÓN DE PÁGINA Y ENCABEZADOS
+\templatePagecfg
+
+% RESUMEN O ABSTRACT
+
+
+% TABLA DE CONTENIDOS - ÍNDICE
+\templateIndex
+
+% CONFIGURACIONES FINALES
+\templateFinalcfg
+
+% ======================= INICIO DEL DOCUMENTO =======================
+
+\input{example} % Ejemplo, se puede borrar
+
+% FIN DEL DOCUMENTO
+\end{document}
