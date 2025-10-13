@@ -1,0 +1,19 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Plot de Datos Tomados - General}{1}{section.1}%
+\contentsline {section}{\numberline {2}KERNEL RIDGE - Curva de Validación de los datos}{2}{section.2}%
+\contentsline {section}{\numberline {3}KERNEL RIDGE - Gráfica de Pariedad de los datos}{3}{section.3}%
+\contentsline {section}{\numberline {4}KERNEL RIDGE - Curvas de aprendizaje}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Análisis de las curvas de aprendizaje}{4}{subsection.4.1}%
+\contentsline {section}{\numberline {5}KERNEL RIDGE - Compromiso Sesgo-Varianza}{5}{section.5}%
+\contentsline {section}{\numberline {6}KERNEL RIDGE - Temperatura}{6}{section.6}%
+\contentsline {section}{\numberline {7}KERNEL RIDGE - Humedad}{8}{section.7}%
+\contentsline {section}{\numberline {8}Regresión Lineal - Temperatura}{10}{section.8}%
+\contentsline {section}{\numberline {9}Regresión Lineal - Humedad}{13}{section.9}%
+\contentsline {section}{\numberline {10}Regresión Polinómica - Temperatura}{16}{section.10}%
+\contentsline {section}{\numberline {11}Regresión Polinómica - Humedad}{19}{section.11}%
+\contentsline {section}{\numberline {12}Ridge - Temperatura}{22}{section.12}%
+\contentsline {section}{\numberline {13}Ridge - Humedad}{25}{section.13}%
+\contentsline {section}{\numberline {14}Lasso - Temperatura}{28}{section.14}%
+\contentsline {section}{\numberline {15}Lasso - Humedad}{31}{section.15}%
+\contentsline {section}{\numberline {16}ElasticNet - Temperatura}{34}{section.16}%
+\contentsline {section}{\numberline {17}ElasticNet - Humedad}{37}{section.17}%
