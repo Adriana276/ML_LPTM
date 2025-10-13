@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.12)  12 OCT 2025 19:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.12)  13 OCT 2025 02:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2073,7 +2073,17 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (main.aux)
+ (main.aux
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -2268,9 +2278,7 @@ File: ./img//departamentos/dimec.pdf Graphic file (type pdf)
 <use ./img//departamentos/dimec.pdf>
 Package pdftex.def Info: ./img//departamentos/dimec.pdf  used on input line 71.
 (pdftex.def)             Requested size: 109.0344pt x 59.75095pt.
- (C:\Users\adria\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
-File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [1{C:/Users/adria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
+ [1{C:/Users/adria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
 
 
@@ -2307,10 +2315,21 @@ File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-No file main.toc.
+ (main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@toc=\write3
 \openout3 = `main.toc'.
+
+
+No file main.lof.
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+No file main.lot.
+\tf@lot=\write5
+\openout5 = `main.lot'.
 
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
@@ -2319,12 +2338,12 @@ LaTeX Info: Redefining \% on input line 80.
 
 
 ] (example.tex
-<./img//cccc.png, id=28, 1072.4868pt x 711.1368pt>
+<./img//cccc.png, id=63, 1072.4868pt x 711.1368pt>
 File: ./img//cccc.png Graphic file (type png)
 <use ./img//cccc.png>
 Package pdftex.def Info: ./img//cccc.png  used on input line 22.
 (pdftex.def)             Requested size: 407.66867pt x 270.31075pt.
-<./img//entreamiento-humedad.png, id=30, 566.5968pt x 422.0568pt>
+<./img//entreamiento-humedad.png, id=65, 566.5968pt x 422.0568pt>
 File: ./img//entreamiento-humedad.png Graphic file (type png)
 <use ./img//entreamiento-humedad.png>
 Package pdftex.def Info: ./img//entreamiento-humedad.png  used on input line 31.
@@ -2334,12 +2353,12 @@ LaTeX Info: Redefining \% on input line 35.
  [1
 
  <./img//cccc.png>]
-<./img//curav de validacion temperatura.png, id=40, 566.5968pt x 422.0568pt>
+<./img//curav de validacion temperatura.png, id=73, 566.5968pt x 422.0568pt>
 File: ./img//curav de validacion temperatura.png Graphic file (type png)
 <use ./img//curav de validacion temperatura.png>
 Package pdftex.def Info: ./img//curav de validacion temperatura.png  used on input line 41.
 (pdftex.def)             Requested size: 226.48413pt x 168.7038pt.
-<./img//grarfica de pariedad.png, id=41, 445.1832pt x 405.4347pt>
+<./img//grarfica de pariedad.png, id=74, 445.1832pt x 405.4347pt>
 File: ./img//grarfica de pariedad.png Graphic file (type png)
 <use ./img//grarfica de pariedad.png>
 Package pdftex.def Info: ./img//grarfica de pariedad.png  used on input line 53.
@@ -2347,7 +2366,7 @@ Package pdftex.def Info: ./img//grarfica de pariedad.png  used on input line 53.
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
  [2 <./img//entreamiento-humedad.png> <./img//curav de validacion temperatura.png>]
-<./img//pariedad temperatura.png, id=52, 435.7881pt x 405.4347pt>
+<./img//pariedad temperatura.png, id=84, 435.7881pt x 405.4347pt>
 File: ./img//pariedad temperatura.png Graphic file (type png)
 <use ./img//pariedad temperatura.png>
 Package pdftex.def Info: ./img//pariedad temperatura.png  used on input line 65.
@@ -2355,652 +2374,14 @@ Package pdftex.def Info: ./img//pariedad temperatura.png  used on input line 65.
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
  [3 <./img//grarfica de pariedad.png> <./img//pariedad temperatura.png>]
-<./img//curva de aprendizaje.png, id=63, 1074.6549pt x 424.2249pt>
+<./img//curva de aprendizaje.png, id=95, 1074.6549pt x 424.2249pt>
 File: ./img//curva de aprendizaje.png Graphic file (type png)
 <use ./img//curva de aprendizaje.png>
 Package pdftex.def Info: ./img//curva de aprendizaje.png  used on input line 79.
 (pdftex.def)             Requested size: 339.7262pt x 134.11055pt.
-<./img//descargar.png, id=64, 713.3049pt x 423.5022pt>
+<./img//descargar.png, id=96, 713.3049pt x 423.5022pt>
 File: ./img//descargar.png Graphic file (type png)
 <use ./img//descargar.png>
 Package pdftex.def Info: ./img//descargar.png  used on input line 106.
 (pdftex.def)             Requested size: 339.7262pt x 201.70198pt.
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
- [4{C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./img//curva de aprendizaje.png>]
-<./img//compromiso ses-variance humedad.png, id=76, 857.8449pt x 496.4949pt>
-File: ./img//compromiso ses-variance humedad.png Graphic file (type png)
-<use ./img//compromiso ses-variance humedad.png>
-Package pdftex.def Info: ./img//compromiso ses-variance humedad.png  used on input line 117.
-(pdftex.def)             Requested size: 339.7262pt x 196.62471pt.
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
- [5 <./img//descargar.png> <./img//compromiso ses-variance humedad.png>]
-<./img//2.png, id=87, 945.5325pt x 475.17525pt>
-File: ./img//2.png Graphic file (type png)
-<use ./img//2.png>
-Package pdftex.def Info: ./img//2.png  used on input line 143.
-(pdftex.def)             Requested size: 226.48413pt x 113.81961pt.
-<./img//3.png, id=88, 1144.7568pt x 710.4141pt>
-File: ./img//3.png Graphic file (type png)
-<use ./img//3.png>
-Package pdftex.def Info: ./img//3.png  used on input line 150.
-(pdftex.def)             Requested size: 226.48413pt x 140.55185pt.
-<./img//eeeeeee.png, id=89, 446.26724pt x 351.714pt>
-File: ./img//eeeeeee.png Graphic file (type png)
-<use ./img//eeeeeee.png>
-Package pdftex.def Info: ./img//eeeeeee.png  used on input line 156.
-(pdftex.def)             Requested size: 226.48413pt x 178.497pt.
-<./img//5.png, id=90, 411.939pt x 471.56175pt>
-File: ./img//5.png Graphic file (type png)
-<use ./img//5.png>
-Package pdftex.def Info: ./img//5.png  used on input line 162.
-(pdftex.def)             Requested size: 226.48413pt x 259.25902pt.
-LaTeX Info: Redefining \. on input line 165.
-LaTeX Info: Redefining \% on input line 165.
- [6 <./img//2.png> <./img//3.png> <./img//eeeeeee.png>]
-<./img//naaaa.png, id=103, 1289.2968pt x 855.6768pt>
-File: ./img//naaaa.png Graphic file (type png)
-<use ./img//naaaa.png>
-Package pdftex.def Info: ./img//naaaa.png  used on input line 189.
-(pdftex.def)             Requested size: 339.7262pt x 225.46066pt.
-LaTeX Info: Redefining \. on input line 193.
-LaTeX Info: Redefining \% on input line 193.
- [7 <./img//5.png>]
-<./img//nddddssd.png, id=113, 368.577pt x 210.7875pt>
-File: ./img//nddddssd.png Graphic file (type png)
-<use ./img//nddddssd.png>
-Package pdftex.def Info: ./img//nddddssd.png  used on input line 196.
-(pdftex.def)             Requested size: 339.7262pt x 194.29352pt.
-<./img//xxxx.png, id=114, 449.88075pt x 291.489pt>
-File: ./img//xxxx.png Graphic file (type png)
-<use ./img//xxxx.png>
-Package pdftex.def Info: ./img//xxxx.png  used on input line 203.
-(pdftex.def)             Requested size: 339.7262pt x 220.1151pt.
-LaTeX Info: Redefining \. on input line 207.
-LaTeX Info: Redefining \% on input line 207.
- [8 <./img//naaaa.png> <./img//nddddssd.png>]
-
-LaTeX Warning: File `img/val_lineal_temp.png' not found on input line 224.
-
-
-example.tex:224: Package pdftex.def Error: File `img/val_lineal_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.224 ...=0.75\linewidth]{img/val_lineal_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 228.
-LaTeX Info: Redefining \% on input line 228.
-[9 <./img//xxxx.png>]
-
-LaTeX Warning: File `img/paridad_lineal_temp.png' not found on input line 235.
-
-
-example.tex:235: Package pdftex.def Error: File `img/paridad_lineal_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 ...5\linewidth]{img/paridad_lineal_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 239.
-LaTeX Info: Redefining \% on input line 239.
-[10]
-
-LaTeX Warning: File `img/aprendizaje_lineal_temp.png' not found on input line 248.
-
-
-example.tex:248: Package pdftex.def Error: File `img/aprendizaje_lineal_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 ...newidth]{img/aprendizaje_lineal_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 252.
-LaTeX Info: Redefining \% on input line 252.
-[11]
-
-LaTeX Warning: File `img/val_lineal_hum.png' not found on input line 263.
-
-
-example.tex:263: Package pdftex.def Error: File `img/val_lineal_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 ...h=0.75\linewidth]{img/val_lineal_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 267.
-LaTeX Info: Redefining \% on input line 267.
-[12]
-
-LaTeX Warning: File `img/paridad_lineal_hum.png' not found on input line 273.
-
-
-example.tex:273: Package pdftex.def Error: File `img/paridad_lineal_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.273 ....5\linewidth]{img/paridad_lineal_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 277.
-LaTeX Info: Redefining \% on input line 277.
-[13]
-
-LaTeX Warning: File `img/aprendizaje_lineal_hum.png' not found on input line 286.
-
-
-example.tex:286: Package pdftex.def Error: File `img/aprendizaje_lineal_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.286 ...inewidth]{img/aprendizaje_lineal_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 290.
-LaTeX Info: Redefining \% on input line 290.
-[14]
-
-LaTeX Warning: File `img/val_poly_temp.png' not found on input line 300.
-
-
-example.tex:300: Package pdftex.def Error: File `img/val_poly_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 ...th=0.75\linewidth]{img/val_poly_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 304.
-LaTeX Info: Redefining \% on input line 304.
-[15]
-
-LaTeX Warning: File `img/paridad_poly_temp.png' not found on input line 310.
-
-
-example.tex:310: Package pdftex.def Error: File `img/paridad_poly_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.310 ...0.5\linewidth]{img/paridad_poly_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 314.
-LaTeX Info: Redefining \% on input line 314.
-[16]
-
-LaTeX Warning: File `img/aprendizaje_poly_temp.png' not found on input line 323.
-
-
-example.tex:323: Package pdftex.def Error: File `img/aprendizaje_poly_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.323 ...linewidth]{img/aprendizaje_poly_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 327.
-LaTeX Info: Redefining \% on input line 327.
-[17]
-
-LaTeX Warning: File `img/val_poly_hum.png' not found on input line 337.
-
-
-example.tex:337: Package pdftex.def Error: File `img/val_poly_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.337 ...dth=0.75\linewidth]{img/val_poly_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 341.
-LaTeX Info: Redefining \% on input line 341.
-[18]
-
-LaTeX Warning: File `img/paridad_poly_hum.png' not found on input line 347.
-
-
-example.tex:347: Package pdftex.def Error: File `img/paridad_poly_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.347 ...=0.5\linewidth]{img/paridad_poly_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 351.
-LaTeX Info: Redefining \% on input line 351.
-[19]
-
-LaTeX Warning: File `img/aprendizaje_poly_hum.png' not found on input line 360.
-
-
-example.tex:360: Package pdftex.def Error: File `img/aprendizaje_poly_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 ...\linewidth]{img/aprendizaje_poly_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 364.
-LaTeX Info: Redefining \% on input line 364.
-[20]
-
-LaTeX Warning: File `img/val_ridge_temp.png' not found on input line 374.
-
-
-example.tex:374: Package pdftex.def Error: File `img/val_ridge_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.374 ...h=0.75\linewidth]{img/val_ridge_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
-[21]
-
-LaTeX Warning: File `img/paridad_ridge_temp.png' not found on input line 384.
-
-
-example.tex:384: Package pdftex.def Error: File `img/paridad_ridge_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.384 ....5\linewidth]{img/paridad_ridge_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 388.
-LaTeX Info: Redefining \% on input line 388.
-[22]
-
-LaTeX Warning: File `img/aprendizaje_ridge_temp.png' not found on input line 397.
-
-
-example.tex:397: Package pdftex.def Error: File `img/aprendizaje_ridge_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.397 ...inewidth]{img/aprendizaje_ridge_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 401.
-LaTeX Info: Redefining \% on input line 401.
-[23]
-
-LaTeX Warning: File `img/val_ridge_hum.png' not found on input line 411.
-
-
-example.tex:411: Package pdftex.def Error: File `img/val_ridge_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.411 ...th=0.75\linewidth]{img/val_ridge_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 415.
-LaTeX Info: Redefining \% on input line 415.
-[24]
-
-LaTeX Warning: File `img/paridad_ridge_hum.png' not found on input line 421.
-
-
-example.tex:421: Package pdftex.def Error: File `img/paridad_ridge_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.421 ...0.5\linewidth]{img/paridad_ridge_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 425.
-LaTeX Info: Redefining \% on input line 425.
-[25]
-
-LaTeX Warning: File `img/aprendizaje_ridge_hum.png' not found on input line 434.
-
-
-example.tex:434: Package pdftex.def Error: File `img/aprendizaje_ridge_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.434 ...linewidth]{img/aprendizaje_ridge_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 438.
-LaTeX Info: Redefining \% on input line 438.
-[26]
-
-LaTeX Warning: File `img/val_lasso_temp.png' not found on input line 448.
-
-
-example.tex:448: Package pdftex.def Error: File `img/val_lasso_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.448 ...h=0.75\linewidth]{img/val_lasso_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 452.
-LaTeX Info: Redefining \% on input line 452.
-[27]
-
-LaTeX Warning: File `img/paridad_lasso_temp.png' not found on input line 458.
-
-
-example.tex:458: Package pdftex.def Error: File `img/paridad_lasso_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.458 ....5\linewidth]{img/paridad_lasso_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 462.
-LaTeX Info: Redefining \% on input line 462.
-[28]
-
-LaTeX Warning: File `img/aprendizaje_lasso_temp.png' not found on input line 471.
-
-
-example.tex:471: Package pdftex.def Error: File `img/aprendizaje_lasso_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.471 ...inewidth]{img/aprendizaje_lasso_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 475.
-LaTeX Info: Redefining \% on input line 475.
-[29]
-
-LaTeX Warning: File `img/val_lasso_hum.png' not found on input line 485.
-
-
-example.tex:485: Package pdftex.def Error: File `img/val_lasso_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.485 ...th=0.75\linewidth]{img/val_lasso_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 489.
-LaTeX Info: Redefining \% on input line 489.
-[30]
-
-LaTeX Warning: File `img/paridad_lasso_hum.png' not found on input line 495.
-
-
-example.tex:495: Package pdftex.def Error: File `img/paridad_lasso_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 ...0.5\linewidth]{img/paridad_lasso_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 499.
-LaTeX Info: Redefining \% on input line 499.
-[31]
-
-LaTeX Warning: File `img/aprendizaje_lasso_hum.png' not found on input line 508.
-
-
-example.tex:508: Package pdftex.def Error: File `img/aprendizaje_lasso_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.508 ...linewidth]{img/aprendizaje_lasso_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 512.
-LaTeX Info: Redefining \% on input line 512.
-[32]
-
-LaTeX Warning: File `img/val_enet_temp.png' not found on input line 522.
-
-
-example.tex:522: Package pdftex.def Error: File `img/val_enet_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.522 ...th=0.75\linewidth]{img/val_enet_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 526.
-LaTeX Info: Redefining \% on input line 526.
-[33]
-
-LaTeX Warning: File `img/paridad_enet_temp.png' not found on input line 532.
-
-
-example.tex:532: Package pdftex.def Error: File `img/paridad_enet_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.532 ...0.5\linewidth]{img/paridad_enet_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 536.
-LaTeX Info: Redefining \% on input line 536.
-[34]
-
-LaTeX Warning: File `img/aprendizaje_enet_temp.png' not found on input line 545.
-
-
-example.tex:545: Package pdftex.def Error: File `img/aprendizaje_enet_temp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.545 ...linewidth]{img/aprendizaje_enet_temp.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 549.
-LaTeX Info: Redefining \% on input line 549.
-[35]
-
-LaTeX Warning: File `img/val_enet_hum.png' not found on input line 559.
-
-
-example.tex:559: Package pdftex.def Error: File `img/val_enet_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.559 ...dth=0.75\linewidth]{img/val_enet_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 563.
-LaTeX Info: Redefining \% on input line 563.
-[36]
-
-LaTeX Warning: File `img/paridad_enet_hum.png' not found on input line 569.
-
-
-example.tex:569: Package pdftex.def Error: File `img/paridad_enet_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.569 ...=0.5\linewidth]{img/paridad_enet_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 573.
-LaTeX Info: Redefining \% on input line 573.
-[37]
-
-LaTeX Warning: File `img/aprendizaje_enet_hum.png' not found on input line 582.
-
-
-example.tex:582: Package pdftex.def Error: File `img/aprendizaje_enet_hum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.582 ...\linewidth]{img/aprendizaje_enet_hum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 586.
-LaTeX Info: Redefining \% on input line 586.
-[38])
-
-Package totalcount Warning: Total counter(s) have changed.
-(totalcount)                Rerun to get them right.
-
-LaTeX Info: Redefining \. on input line 87.
-LaTeX Info: Redefining \% on input line 87.
-[39]
-
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (1 not 41).
-               Rerun to correct this.
-
-(main.aux
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
-)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
- ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 3636 ({)
-### bottom level 
-Here is how much of TeX's memory you used:
- 34409 strings out of 474485
- 600063 string characters out of 5743733
- 1934542 words of memory out of 5000000
- 55974 multiletter control sequences out of 15000+600000
- 610571 words of font info for 76 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 113i,16n,110p,17436b,5500s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmvtt10.pfb>
-Output written on main.pdf (41 pages, 1491651 bytes).
-PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
- 108 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+LaTeX Info: Redefinin

@@ -188,21 +188,18 @@ El modelo se ajusta demasiado a los datos de entrenamiento\\
     \centering
     \includegraphics[width=0.75\linewidth]{naaaa.png}
     \caption{VISUALIZACIÓN COMPLETA CON TODOS LOS DATOS}
-    \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{nddddssd.png}
     \caption{Mejor modelo tomado, regresion lineal, comparacion de humedad predicha vs humedad real}
-    \label{fig:placeholder}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{xxxx.png}
     \caption{Evolución del error en el tiempo}
-    \label{fig:placeholder}
 \end{figure}
 
 
@@ -218,83 +215,229 @@ Desviación estándar del error: 0.0625%\\
 
 \section{Regresión Lineal - Temperatura}
 
-% Curva de validación
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{img/val_lineal_temp.png}
-    \caption{Curva de Validación del Modelo Lineal para Temperatura}
-    \label{fig:val_lineal_temp}
-\end{figure}
-
-% Espacio para comentar el mejor hiperparámetro
-\noindent Mejor configuración: ...\\
-
-% Curva de paridad
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{img/paridad_lineal_temp.png}
-    \caption{Curva de paridad de la Temperatura real vs la predicha (Lineal)}
-    \label{fig:paridad_lineal_temp}
-\end{figure}
-
-\noindent \textbf{ENTRENANDO MODELO LINEAL PARA TEMPERATURA}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
-
 % Curva de aprendizaje
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\linewidth]{img/aprendizaje_lineal_temp.png}
-    \caption{Curva de aprendizaje para Temperatura (Lineal)}
+    \includegraphics[width=0.75\linewidth]{img/RLapr.png}
+    \caption{Curva de aprendizaje para Temperatura (Regresión Lineal)}
     \label{fig:apr_lineal_temp}
 \end{figure}
 
-% Espacio para análisis
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: 0.1629\\
+- MSE Final Validación: 0.1731\\
+- Diagnóstico: BUENO\\
+
+-**INTERPRETACIÓN:**
+- Si las curvas CONVERGEN: Modelo generaliza bien
+- Si hay BRECHA grande: Posible sobreajuste
+- Si ambas son ALTAS: Posible subajuste
+- Áreas sombreadas: Variabilidad (1 desviación estándar)
+% Curva de validación (complejidad polinómica)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/RLval.png}
+    \caption{Curva de Validación del Modelo Lineal para Temperatura (variando complejidad polinómica)}
+    \label{fig:val_lineal_temp}
+\end{figure}
+
+\noindent Mejor grado/configuración: 3\\
+
+% Curva de compromiso sesgo-varianza
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/RLsesgo_varianza.png}
+    \caption{Compromiso Sesgo–Varianza - Temperatura (Regresión Lineal Polinómica)}
+    \label{fig:sesgo_varianza_lineal_temp}
+\end{figure}
+
+\noindent \textbf{Diagnóstico:}\\
+• Mejor grado polinómico: 3\\
+• MSE validación mínimo: 0.0963\\
+• MSE entrenamiento correspondiente: 0.0457\\
+
+Diagnóstico del problema: BALANCE IDEAL\\
+El modelo generaliza correctamente
+
+% Curva de paridad mejorada
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/RLpar.png}
+    \caption{Curva de paridad de la Temperatura real vs la predicha (Entrenamiento y Validación)}
+    \label{fig:paridad_lineal_temp}
+\end{figure}
+
+\noindent \textbf{Métricas del modelo lineal:}\\
+MSE Entrenamiento: 0.164\\
+MSE Validación: 0.166.\\
+R\textsuperscript{2} Entrenamiento: 0.667\\
+R\textsuperscript{2} Validación: 0.692\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/RL_actual_vs_predicho.png}
+    \caption{Actual vs Predicho - Regresión Lineal (Temperatura)}
+    \label{fig:actual_vs_predicho_lineal_temp}
+\end{figure}
+
+% Serie temporal: Temperatura real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/RLserie_temp.png}
+    \caption{Serie temporal de Temperatura real vs predicha (validación)}
+    \label{fig:serie_temporal_lineal_temp}
+\end{figure}
+
+% Gráfica de errores absolutos en el tiempo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/RLerror_abs.png}
+    \caption{Evolución del error absoluto en el tiempo - Temperatura}
+    \label{fig:error_abs_lineal_temp}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/RLhist_error.png}
+    \caption{Distribución de errores absolutos - Regresión Lineal - Temperatura}
+    \label{fig:hist_error_lineal_temp}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo Regresión Lineal}
+    \begin{tabular}{@{}lc@{}}
+        	oprule
+        	extbf{Métrica} & \textbf{Regresión Lineal} \\
+        \midrule
+        MSE (Test) & 0.1657 \\
+        R\textsuperscript{2} (Test) & 0.6920 \\
+        Error Promedio (°C) & 0.3012 \\
+        Error Máximo (°C) & 1.2040 \\
+        Error Mínimo (°C) & 0.0036 \\
+        Desviación Estándar del Error & 0.2738 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
 \noindent Comentario/análisis: ...\\
 
 % ======================= REGRESIÓN LINEAL - HUMEDAD =======================
 
 \section{Regresión Lineal - Humedad}
 
-% Curva de validación
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{img/val_lineal_hum.png}
-    \caption{Curva de Validación del Modelo Lineal para Humedad}
-    \label{fig:val_lineal_hum}
-\end{figure}
-
-\noindent Mejor configuración: ...\\
-
-% Curva de paridad
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{img/paridad_lineal_hum.png}
-    \caption{Curva de paridad de la Humedad real vs la predicha (Lineal)}
-    \label{fig:paridad_lineal_hum}
-\end{figure}
-
-\noindent \textbf{ENTRENANDO MODELO LINEAL PARA HUMEDAD}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
-
 % Curva de aprendizaje
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/aprendizaje_lineal_hum.png}
-    \caption{Curva de aprendizaje para Humedad (Lineal)}
+    \caption{Curva de aprendizaje para Humedad (Regresión Lineal)}
     \label{fig:apr_lineal_hum}
 \end{figure}
+
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: 5.5786\\
+- MSE Final Validación: 6.0727\\
+- Diagnóstico: SUBAJUSTE\\
+
+% Curva de validación (complejidad polinómica)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/val_lineal_hum.png}
+    \caption{Curva de Validación del Modelo Lineal para Humedad (variando complejidad polinómica)}
+    \label{fig:val_lineal_hum}
+\end{figure}
+
+\noindent Mejor grado/configuración: 3\\
+
+% Curva de compromiso sesgo-varianza
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/sesgo_varianza_lineal_hum.png}
+    \caption{Compromiso Sesgo–Varianza - Humedad (Regresión Lineal Polinómica)}
+    \label{fig:sesgo_varianza_lineal_hum}
+\end{figure}
+
+\noindent \textbf{Diagnóstico:}\\
+• Mejor grado polinómico: 3\\
+• MSE validación mínimo: 2.6917\\
+• MSE entrenamiento correspondiente: 1.7651\\
+\newline Diagnóstico del problema: SUBAJUSTE\\
+El modelo es demasiado simple para los datos\\
+
+% Curva de paridad mejorada
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/paridad_lineal_hum.png}
+    \caption{Curva de paridad de la Humedad real vs la predicha (Entrenamiento y Validación)}
+    \label{fig:paridad_lineal_hum}
+\end{figure}
+
+\noindent \textbf{Métricas del modelo lineal:}\\
+MSE Entrenamiento: 5.6209\\
+MSE Validación: 6.9739\\
+R\textsuperscript{2} Entrenamiento: 0.4995\\
+R\textsuperscript{2} Validación: 0.4131\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/actual_vs_predicho_lineal_hum.png}
+    \caption{Actual vs Predicho - Regresión Lineal (Humedad)}
+    \label{fig:actual_vs_predicho_lineal_hum}
+\end{figure}
+
+% Serie temporal: Humedad real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/serie_lineal_hum.png}
+    \caption{Serie temporal de Humedad real vs predicha (validación)}
+    \label{fig:serie_temporal_lineal_hum}
+\end{figure}
+
+% Gráfica de errores absolutos en el tiempo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/error_abs_lineal_hum.png}
+    \caption{Evolución del error absoluto en el tiempo - Humedad}
+    \label{fig:error_abs_lineal_hum}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/hist_error_lineal_hum.png}
+    \caption{Distribución de errores absolutos - Regresión Lineal - Humedad}
+    \label{fig:hist_error_lineal_hum}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo Regresión Lineal (Humedad)}
+    \begin{tabular}{@{}lc@{}}
+        	oprule
+        	extbf{Métrica} & \textbf{Regresión Lineal} \\
+        \midrule
+        MSE (Test) & 6.9739 \\
+        R\textsuperscript{2} (Test) & 0.4131 \\
+        Error Promedio & 2.0526 \\
+        Error Máximo & 7.3054 \\
+        Error Mínimo & 0.0278 \\
+        Desviación Estándar del Error & 1.6616 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \noindent Comentario/análisis: ...\\
 
 % ======================= REGRESIÓN POLINÓMICA =======================
 
-\section{Regresión Polinómica - Temperatura}
+\section{Regresión no Lineal - Temperatura}
 
-% Curva de validación
+% Curva de validación (grado polinómico)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/val_poly_temp.png}
@@ -302,7 +445,7 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:val_poly_temp}
 \end{figure}
 
-\noindent Mejor grado: ...\\
+\noindent Mejor grado polinómico: 3\\
 
 % Curva de paridad
 \begin{figure}[H]
@@ -313,9 +456,9 @@ R\textsuperscript{2} Validación: ...\\
 \end{figure}
 
 \noindent \textbf{ENTRENANDO MODELO POLINÓMICO PARA TEMPERATURA}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
+MSE Entrenamiento: 0.0799\\
+MSE Validación: 0.1204\\
+R\textsuperscript{2} Validación: 0.7761\\
 
 % Curva de aprendizaje
 \begin{figure}[H]
@@ -325,13 +468,60 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:apr_poly_temp}
 \end{figure}
 
-\noindent Comentario/análisis: ...\\
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: 0.1629\\
+- MSE Final Validación: 0.1731\\
+- Diagnóstico: BUENO\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/actual_vs_predicho_poly_temp.png}
+    \caption{Actual vs Predicho - Regresión Polinómica (Temperatura)}
+    \label{fig:actual_vs_predicho_poly_temp}
+\end{figure}
+
+% Serie temporal: Temperatura real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/serie_poly_temp.png}
+    \caption{Serie temporal de Temperatura real vs predicha (validación, Polinómica)}
+    \label{fig:serie_temporal_poly_temp}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/hist_error_poly_temp.png}
+    \caption{Distribución de errores absolutos - Regresión Polinómica - Temperatura}
+    \label{fig:hist_error_poly_temp}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo Regresión Polinómica (Temperatura)}
+    \begin{tabular}{@{}lc@{}}
+        	oprule
+        	extbf{Métrica} & \textbf{Regresión Polinómica} \\
+        \midrule
+        MSE (Test) & [valor notebook] \\
+        R\textsuperscript{2} (Test) & [valor notebook] \\
+        Error Promedio & [valor notebook] \\
+        Error Máximo & [valor notebook] \\
+        Error Mínimo & [valor notebook] \\
+        Desviación Estándar del Error & [valor notebook] \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= REGRESIÓN POLINÓMICA - HUMEDAD =======================
 
-\section{Regresión Polinómica - Humedad}
+\section{Regresión no - Humedad}
 
-% Curva de validación
+% Curva de validación (grado polinómico)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/val_poly_hum.png}
@@ -339,7 +529,7 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:val_poly_hum}
 \end{figure}
 
-\noindent Mejor grado: ...\\
+\noindent Mejor grado polinómico: [coloca aquí el valor obtenido en el notebook]\\
 
 % Curva de paridad
 \begin{figure}[H]
@@ -350,9 +540,9 @@ R\textsuperscript{2} Validación: ...\\
 \end{figure}
 
 \noindent \textbf{ENTRENANDO MODELO POLINÓMICO PARA HUMEDAD}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
+MSE Entrenamiento: [valor notebook]\\
+MSE Validación: [valor notebook]\\
+R\textsuperscript{2} Validación: [valor notebook]\\
 
 % Curva de aprendizaje
 \begin{figure}[H]
@@ -362,7 +552,54 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:apr_poly_hum}
 \end{figure}
 
-\noindent Comentario/análisis: ...\\
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: [valor notebook]\\
+- MSE Final Validación: [valor notebook]\\
+- Diagnóstico: [BUENO/SUBAJUSTE/SOBREAJUSTE según notebook]\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/actual_vs_predicho_poly_hum.png}
+    \caption{Actual vs Predicho - Regresión Polinómica (Humedad)}
+    \label{fig:actual_vs_predicho_poly_hum}
+\end{figure}
+
+% Serie temporal: Humedad real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/serie_poly_hum.png}
+    \caption{Serie temporal de Humedad real vs predicha (validación, Polinómica)}
+    \label{fig:serie_temporal_poly_hum}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/hist_error_poly_hum.png}
+    \caption{Distribución de errores absolutos - Regresión Polinómica - Humedad}
+    \label{fig:hist_error_poly_hum}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo Regresión Polinómica (Humedad)}
+    \begin{tabular}{@{}lc@{}}
+        	oprule
+        	extbf{Métrica} & \textbf{Regresión Polinómica} \\
+        \midrule
+        MSE (Test) & [valor notebook] \\
+        R\textsuperscript{2} (Test) & [valor notebook] \\
+        Error Promedio & [valor notebook] \\
+        Error Máximo & [valor notebook] \\
+        Error Mínimo & [valor notebook] \\
+        Desviación Estándar del Error & [valor notebook] \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= RIDGE =======================
 
