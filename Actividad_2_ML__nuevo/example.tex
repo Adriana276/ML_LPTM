@@ -228,11 +228,12 @@ Desviación estándar del error: 0.0625%\\
 - MSE Final Validación: 0.1731\\
 - Diagnóstico: BUENO\\
 
--**INTERPRETACIÓN:**
-- Si las curvas CONVERGEN: Modelo generaliza bien
-- Si hay BRECHA grande: Posible sobreajuste
-- Si ambas son ALTAS: Posible subajuste
-- Áreas sombreadas: Variabilidad (1 desviación estándar)
+- INTERPRETACIÓN:\\
+- Si las curvas CONVERGEN: Modelo generaliza bien\\
+- Si hay BRECHA grande: Posible sobreajuste\\
+- Si ambas son ALTAS: Posible subajuste\\
+- Áreas sombreadas: Variabilidad (1 desviación estándar)\\
+
 % Curva de validación (complejidad polinómica)
 \begin{figure}[H]
     \centering
@@ -489,6 +490,14 @@ R\textsuperscript{2} Validación: 0.7761\\
     \label{fig:serie_temporal_poly_temp}
 \end{figure}
 
+% Evolución del error absoluto en el tiempo
+\begin{figure}[H]
+     \centering
+     \includegraphics[width=0.75\linewidth]{img/error_abs_evol_poly_temp.png}
+     \caption{Evolución del error absoluto en el tiempo - Regresión Polinómica - Temperatura}
+     \label{fig:error_abs_evol_poly_temp}
+\end{figure}
+
 % Histograma de la distribución de errores absolutos
 \begin{figure}[H]
     \centering
@@ -496,6 +505,7 @@ R\textsuperscript{2} Validación: 0.7761\\
     \caption{Distribución de errores absolutos - Regresión Polinómica - Temperatura}
     \label{fig:hist_error_poly_temp}
 \end{figure}
+
 
 % Tabla resumen de métricas
 \begin{table}[H]
@@ -505,12 +515,12 @@ R\textsuperscript{2} Validación: 0.7761\\
         	oprule
         	extbf{Métrica} & \textbf{Regresión Polinómica} \\
         \midrule
-        MSE (Test) & [valor notebook] \\
-        R\textsuperscript{2} (Test) & [valor notebook] \\
-        Error Promedio & [valor notebook] \\
-        Error Máximo & [valor notebook] \\
-        Error Mínimo & [valor notebook] \\
-        Desviación Estándar del Error & [valor notebook] \\
+        MSE (Test) & 0.1204 \\
+        R\textsuperscript{2} (Test) & 0.7761 \\
+        Error Promedio & 0.2806 \\
+        Error Máximo & 0.7818 \\
+        Error Mínimo & 0.0029 \\
+        Desviación Estándar del Error & 0.2042 \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -519,49 +529,51 @@ R\textsuperscript{2} Validación: 0.7761\\
 
 % ======================= REGRESIÓN POLINÓMICA - HUMEDAD =======================
 
-\section{Regresión no - Humedad}
+\section{Regresión no Lineal- Humedad}
 
 % Curva de validación (grado polinómico)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/val_poly_hum.png}
-    \caption{Curva de Validación del Modelo Polinómico para Humedad}
+    \caption{Curva de Validación del Modelo no Lineal para Humedad}
     \label{fig:val_poly_hum}
 \end{figure}
 
-\noindent Mejor grado polinómico: [coloca aquí el valor obtenido en el notebook]\\
+\noindent Mejor grado polinómico: 3\\
 
 % Curva de paridad
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{img/paridad_poly_hum.png}
-    \caption{Curva de paridad de la Humedad real vs la predicha (Polinómica)}
+    \caption{Curva de paridad de la Humedad real vs la predicha (Regresión no Lineal)}
     \label{fig:paridad_poly_hum}
 \end{figure}
 
 \noindent \textbf{ENTRENANDO MODELO POLINÓMICO PARA HUMEDAD}\\
-MSE Entrenamiento: [valor notebook]\\
-MSE Validación: [valor notebook]\\
-R\textsuperscript{2} Validación: [valor notebook]\\
+MSE Entrenamiento: 2.2906\\
+MSE Validación: 2.8346\\
+R\textsuperscript{2} Entrenamiento: 0.7960\\
+R\textsuperscript{2} Validación: 0.7615\\
 
 % Curva de aprendizaje
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/aprendizaje_poly_hum.png}
-    \caption{Curva de aprendizaje para Humedad (Polinómica)}
+    \caption{Curva de aprendizaje para Humedad (Regresión no Lineal)}
     \label{fig:apr_poly_hum}
 \end{figure}
 
 \noindent \textbf{Análisis de la curva de aprendizaje:}\\
-- MSE Final Entrenamiento: [valor notebook]\\
-- MSE Final Validación: [valor notebook]\\
-- Diagnóstico: [BUENO/SUBAJUSTE/SOBREAJUSTE según notebook]\\
+- MSE Final Entrenamiento: 2.2468\\
+- MSE Final Validación: 2.7875\\
+- Diagnóstico: SUBAJUSTE\\
+El modelo es demasiado simple para los datos.\\
 
 % Actual vs Predicho (Entrenamiento y Validación)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/actual_vs_predicho_poly_hum.png}
-    \caption{Actual vs Predicho - Regresión Polinómica (Humedad)}
+    \caption{Actual vs Predicho - Regresión no Lineal (Humedad)}
     \label{fig:actual_vs_predicho_poly_hum}
 \end{figure}
 
@@ -569,32 +581,40 @@ R\textsuperscript{2} Validación: [valor notebook]\\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/serie_poly_hum.png}
-    \caption{Serie temporal de Humedad real vs predicha (validación, Polinómica)}
+    \caption{Serie temporal de Humedad real vs predicha (validación, Regresión no Lineal)}
     \label{fig:serie_temporal_poly_hum}
+\end{figure}
+
+% Evolución del error absoluto en el tiempo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/error_abs_evol_poly_hum.png}
+    \caption{Evolución del error absoluto en el tiempo - Regresión no Lineal - Temperatura}
+    \label{fig:error_abs_evol_poly_temp}
 \end{figure}
 
 % Histograma de la distribución de errores absolutos
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{img/hist_error_poly_hum.png}
-    \caption{Distribución de errores absolutos - Regresión Polinómica - Humedad}
+    \caption{Distribución de errores absolutos - Regresión no Lineal - Humedad}
     \label{fig:hist_error_poly_hum}
 \end{figure}
 
 % Tabla resumen de métricas
 \begin{table}[H]
     \centering
-    \caption{Resultados del modelo Regresión Polinómica (Humedad)}
+    \caption{Resultados del modelo Regresión no Lineal (Humedad)}
     \begin{tabular}{@{}lc@{}}
         	oprule
         	extbf{Métrica} & \textbf{Regresión Polinómica} \\
         \midrule
-        MSE (Test) & [valor notebook] \\
-        R\textsuperscript{2} (Test) & [valor notebook] \\
-        Error Promedio & [valor notebook] \\
-        Error Máximo & [valor notebook] \\
-        Error Mínimo & [valor notebook] \\
-        Desviación Estándar del Error & [valor notebook] \\
+        MSE (Test) & 2.8346 \\
+        R\textsuperscript{2} (Test) & 0.7615 \\
+        Error Promedio & 0.2806 \\
+        Error Máximo & 0.7818 \\
+        Error Mínimo & 0.0029 \\
+        Desviación Estándar del Error & 0.2042 \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -605,15 +625,16 @@ R\textsuperscript{2} Validación: [valor notebook]\\
 
 \section{Ridge - Temperatura}
 
-% Curva de validación
+
+% Curva de validación (alpha)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/val_ridge_temp.png}
-    \caption{Curva de Validación del Modelo Ridge para Temperatura}
+    \caption{Curva de Validación del Modelo Ridge para Temperatura (variando $\alpha$)}
     \label{fig:val_ridge_temp}
 \end{figure}
 
-\noindent Mejor alpha: ...\\
+\noindent Mejor $\alpha$:  0.01668\\
 
 % Curva de paridad
 \begin{figure}[H]
@@ -623,10 +644,11 @@ R\textsuperscript{2} Validación: [valor notebook]\\
     \label{fig:paridad_ridge_temp}
 \end{figure}
 
-\noindent \textbf{ENTRENANDO MODELO RIDGE PARA TEMPERATURA}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
+\noindent \textbf{Métricas del modelo Ridge:}\\
+MSE Entrenamiento: 0.186\\
+MSE Validación: 0.208\\
+R\textsuperscript{2} Entrenamiento: 0.622\\
+R\textsuperscript{2} Validación: 0.613\\
 
 % Curva de aprendizaje
 \begin{figure}[H]
@@ -636,21 +658,77 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:apr_ridge_temp}
 \end{figure}
 
-\noindent Comentario/análisis: ...\\
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: 0.3511\\
+- MSE Final Validación: 0.3682\\
+- Diagnóstico: BALANCE\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/ridge_actual_vs_predicho_temp.png}
+    \caption{Actual vs Predicho - Ridge (Temperatura)}
+    \label{fig:actual_vs_predicho_ridge_temp}
+\end{figure}
+
+% Serie temporal: Temperatura real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/ridge_serie_temp.png}
+    \caption{Serie temporal de Temperatura real vs predicha (validación, Ridge)}
+    \label{fig:serie_temporal_ridge_temp}
+\end{figure}
+
+% Gráfica de errores absolutos en el tiempo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/ridge_error_abs_temp.png}
+    \caption{Evolución del error absoluto en el tiempo - Ridge - Temperatura}
+    \label{fig:error_abs_ridge_temp}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/ridge_hist_error_temp.png}
+    \caption{Distribución de errores absolutos - Ridge - Temperatura}
+    \label{fig:hist_error_ridge_temp}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo Ridge (Temperatura)}
+    \begin{tabular}{@{}lc@{}}
+        	oprule
+        	extbf{Métrica} & \textbf{Ridge} \\
+        \midrule
+        MSE (Test) & 0.2083 \\
+        R\textsuperscript{2} (Test) & 0.0.6128 \\
+        Error Promedio (°C) & 0.3471 \\
+        Error Máximo (°C) & 1.2328 \\
+        Error Mínimo (°C) & 0.0102 \\
+        Desviación Estándar del Error & 0.2964 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= RIDGE - HUMEDAD =======================
 
 \section{Ridge - Humedad}
 
-% Curva de validación
+
+% Curva de validación (alpha)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/val_ridge_hum.png}
-    \caption{Curva de Validación del Modelo Ridge para Humedad}
+    \caption{Curva de Validación del Modelo Ridge para Humedad (variando $\alpha$)}
     \label{fig:val_ridge_hum}
 \end{figure}
 
-\noindent Mejor alpha: ...\\
+\noindent Mejor $\alpha$: 0.05995\\
 
 % Curva de paridad
 \begin{figure}[H]
@@ -660,10 +738,11 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:paridad_ridge_hum}
 \end{figure}
 
-\noindent \textbf{ENTRENANDO MODELO RIDGE PARA HUMEDAD}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
+\noindent \textbf{Métricas del modelo Ridge:}\\
+MSE Entrenamiento: 5.743\\
+MSE Validación: 7.202\\
+R\textsuperscript{2} Entrenamiento: 0.489\\
+R\textsuperscript{2} Validación: 0.394\\
 
 % Curva de aprendizaje
 \begin{figure}[H]
@@ -673,21 +752,77 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:apr_ridge_hum}
 \end{figure}
 
-\noindent Comentario/análisis: ...\\
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: 5.7533\\
+- MSE Final Validación: 6.2137\\
+- Diagnóstico: SUBAJUSTE\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/ridge_actual_vs_predicho_hum.png}
+    \caption{Actual vs Predicho - Ridge (Humedad)}
+    \label{fig:actual_vs_predicho_ridge_hum}
+\end{figure}
+
+% Serie temporal: Humedad real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/ridge_serie_hum.png}
+    \caption{Serie temporal de Humedad real vs predicha (validación, Ridge)}
+    \label{fig:serie_temporal_ridge_hum}
+\end{figure}
+
+% Gráfica de errores absolutos en el tiempo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/ridge_error_abs_hum.png}
+    \caption{Evolución del error absoluto en el tiempo - Ridge - Humedad}
+    \label{fig:error_abs_ridge_hum}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/ridge_hist_error_hum.png}
+    \caption{Distribución de errores absolutos - Ridge - Humedad}
+    \label{fig:hist_error_ridge_hum}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo Ridge (Humedad)}
+    \begin{tabular}{@{}lc@{}}
+        	oprule
+        	extbf{Métrica} & \textbf{Ridge} \\
+        \midrule
+        MSE (Test) & 7.2025 \\
+        R\textsuperscript{2} (Test) & 0.3939 \\
+        Error Promedio & 2.1070 \\
+        Error Máximo & 7.8507 \\
+        Error Mínimo & 0.0955 \\
+        Desviación Estándar del Error & 1.6622 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= LASSO =======================
 
 \section{Lasso - Temperatura}
 
-% Curva de validación
+
+% Curva de validación (alpha)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/val_lasso_temp.png}
-    \caption{Curva de Validación del Modelo Lasso para Temperatura}
+    \caption{Curva de Validación del Modelo Lasso para Temperatura (variando $\alpha$)}
     \label{fig:val_lasso_temp}
 \end{figure}
 
-\noindent Mejor alpha: ...\\
+\noindent Mejor $\alpha$: 0.0003594\\
 
 % Curva de paridad
 \begin{figure}[H]
@@ -697,10 +832,11 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:paridad_lasso_temp}
 \end{figure}
 
-\noindent \textbf{ENTRENANDO MODELO LASSO PARA TEMPERATURA}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
+\noindent \textbf{Métricas del modelo Lasso:}\\
+MSE Entrenamiento: 0.4694\\
+MSE Validación: 0.5199\\
+R\textsuperscript{2} Entrenamiento: 0.0456\\
+R\textsuperscript{2} Validación: 0.0336\\
 
 % Curva de aprendizaje
 \begin{figure}[H]
@@ -710,21 +846,77 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:apr_lasso_temp}
 \end{figure}
 
-\noindent Comentario/análisis: ...\\
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: 0.4654\\
+- MSE Final Validación: 0.4781\\
+- Diagnóstico: BALANCE\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/lasso_actual_vs_predicho_temp.png}
+    \caption{Actual vs Predicho - Lasso (Temperatura)}
+    \label{fig:actual_vs_predicho_lasso_temp}
+\end{figure}
+
+% Serie temporal: Temperatura real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/lasso_serie_temp.png}
+    \caption{Serie temporal de Temperatura real vs predicha (validación, Lasso)}
+    \label{fig:serie_temporal_lasso_temp}
+\end{figure}
+
+% Gráfica de errores absolutos en el tiempo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/lasso_error_abs_temp.png}
+    \caption{Evolución del error absoluto en el tiempo - Lasso - Temperatura}
+    \label{fig:error_abs_lasso_temp}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/lasso_hist_error_temp.png}
+    \caption{Distribución de errores absolutos - Lasso - Temperatura}
+    \label{fig:hist_error_lasso_temp}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo Lasso (Temperatura)}
+    \begin{tabular}{@{}lc@{}}
+        	oprule
+        	extbf{Métrica} & \textbf{Lasso} \\
+        \midrule
+        MSE (Test) & 0.5199 \\
+        R\textsuperscript{2} (Test) & 0.0336 \\
+        Error Promedio (°C) & 0.5675 \\
+        Error Máximo (°C) & 1.9577 \\
+        Error Mínimo (°C) & 0.0092 \\
+        Desviación Estándar del Error & 0.4448 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= LASSO - HUMEDAD =======================
 
 \section{Lasso - Humedad}
 
-% Curva de validación
+
+% Curva de validación (alpha)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/val_lasso_hum.png}
-    \caption{Curva de Validación del Modelo Lasso para Humedad}
+    \caption{Curva de Validación del Modelo Lasso para Humedad (variando $\alpha$)}
     \label{fig:val_lasso_hum}
 \end{figure}
 
-\noindent Mejor alpha: ...\\
+\noindent Mejor $\alpha$: 0.001292\\
 
 % Curva de paridad
 \begin{figure}[H]
@@ -734,10 +926,11 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:paridad_lasso_hum}
 \end{figure}
 
-\noindent \textbf{ENTRENANDO MODELO LASSO PARA HUMEDAD}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
+\noindent \textbf{Métricas del modelo Lasso:}\\
+MSE Entrenamiento: 8.3500\\
+MSE Validación: 10.1422\\
+R\textsuperscript{2} Entrenamiento: 0.2564\\
+R\textsuperscript{2} Validación: 0.1465\\
 
 % Curva de aprendizaje
 \begin{figure}[H]
@@ -747,21 +940,76 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:apr_lasso_hum}
 \end{figure}
 
-\noindent Comentario/análisis: ...\\
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: 8.3075\\
+- MSE Final Validación: 8.6869\\
+- Diagnóstico: SUBAJUSTE\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/lasso_actual_vs_predicho_hum.png}
+    \caption{Actual vs Predicho - Lasso (Humedad)}
+    \label{fig:actual_vs_predicho_lasso_hum}
+\end{figure}
+
+% Serie temporal: Humedad real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/lasso_serie_hum.png}
+    \caption{Serie temporal de Humedad real vs predicha (validación, Lasso)}
+    \label{fig:serie_temporal_lasso_hum}
+\end{figure}
+
+% Gráfica de errores absolutos en el tiempo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/lasso_error_abs_hum.png}
+    \caption{Evolución del error absoluto en el tiempo - Lasso - Humedad}
+    \label{fig:error_abs_lasso_hum}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/lasso_hist_error_hum.png}
+    \caption{Distribución de errores absolutos - Lasso - Humedad}
+    \label{fig:hist_error_lasso_hum}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo Lasso (Humedad)}
+    \begin{tabular}{@{}lc@{}}
+        	oprule
+        	extbf{Métrica} & \textbf{Lasso} \\
+        \midrule
+        MSE (Test) & 10.1422 \\
+        R\textsuperscript{2} (Test) & 0.1465 \\
+        Error Promedio & 2.5323 \\
+        Error Máximo & 9.7014 \\
+        Error Mínimo & 0.1517 \\
+        Desviación Estándar del Error & 1.9312 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= ELASTICNET =======================
 
 \section{ElasticNet - Temperatura}
 
-% Curva de validación
+% Curva de validación (alpha/l1_ratio)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/val_enet_temp.png}
-    \caption{Curva de Validación del Modelo ElasticNet para Temperatura}
+    \caption{Curva de Validación del Modelo ElasticNet para Temperatura (variando $\alpha$ y $l1\_ratio$)}
     \label{fig:val_enet_temp}
 \end{figure}
 
-\noindent Mejor alpha/l1	extunderscore ratio: ...\\
+\noindent Mejor $\alpha$: 0.0003594\\
 
 % Curva de paridad
 \begin{figure}[H]
@@ -771,10 +1019,11 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:paridad_enet_temp}
 \end{figure}
 
-\noindent \textbf{ENTRENANDO MODELO ELASTICNET PARA TEMPERATURA}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
+\noindent \textbf{Métricas del modelo ElasticNet:}\\
+MSE Entrenamiento: 0.4452\\
+MSE Validación: 0.5067\\
+R\textsuperscript{2} Entrenamiento: 0.0949\\
+R\textsuperscript{2} Validación: 0.0582\\
 
 % Curva de aprendizaje
 \begin{figure}[H]
@@ -784,21 +1033,76 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:apr_enet_temp}
 \end{figure}
 
-\noindent Comentario/análisis: ...\\
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: 0.4431\\
+- MSE Final Validación: 0.4612\\
+- Diagnóstico: BALANCE\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/enet_actual_vs_predicho_temp.png}
+    \caption{Actual vs Predicho - ElasticNet (Temperatura)}
+    \label{fig:actual_vs_predicho_enet_temp}
+\end{figure}
+
+% Serie temporal: Temperatura real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/enet_serie_temp.png}
+    \caption{Serie temporal de Temperatura real vs predicha (validación, ElasticNet)}
+    \label{fig:serie_temporal_enet_temp}
+\end{figure}
+
+% Gráfica de errores absolutos en el tiempo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/enet_error_abs_temp.png}
+    \caption{Evolución del error absoluto en el tiempo - ElasticNet - Temperatura}
+    \label{fig:error_abs_enet_temp}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/enet_hist_error_temp.png}
+    \caption{Distribución de errores absolutos - ElasticNet - Temperatura}
+    \label{fig:hist_error_enet_temp}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo ElasticNet (Temperatura)}
+    \begin{tabular}{@{}lc@{}}
+        \toprule
+        \textbf{Métrica} & \textbf{ElasticNet} \\
+        \midrule
+        MSE (Test) & 0.5067 \\
+        R\textsuperscript{2} (Test) & 0.0582 \\
+        Error Promedio (°C) & 0.5577 \\
+        Error Máximo (°C) & 1.9254 \\
+        Error Mínimo (°C) & 0.0006 \\
+        Desviación Estándar del Error & 0.4423 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= ELASTICNET - HUMEDAD =======================
 
 \section{ElasticNet - Humedad}
 
-% Curva de validación
+% Curva de validación (alpha/l1_ratio)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/val_enet_hum.png}
-    \caption{Curva de Validación del Modelo ElasticNet para Humedad}
+    \caption{Curva de Validación del Modelo ElasticNet para Humedad (variando $\alpha$ y $l1\_ratio$)}
     \label{fig:val_enet_hum}
 \end{figure}
 
-\noindent Mejor alpha/l1	extunderscore ratio: ...\\
+\noindent Mejor $\alpha$/l1\_ratio: 0.0003594\\
 
 % Curva de paridad
 \begin{figure}[H]
@@ -808,10 +1112,11 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:paridad_enet_hum}
 \end{figure}
 
-\noindent \textbf{ENTRENANDO MODELO ELASTICNET PARA HUMEDAD}\\
-MSE Entrenamiento: ...\\
-MSE Validación: ...\\
-R\textsuperscript{2} Validación: ...\\
+\noindent \textbf{Métricas del modelo ElasticNet:}\\
+MSE Entrenamiento: 8.3392\\
+MSE Validación: 10.1988\\
+R\textsuperscript{2} Entrenamiento: 0.2574\\
+R\textsuperscript{2} Validación: 0.1417\\
 
 % Curva de aprendizaje
 \begin{figure}[H]
@@ -821,6 +1126,61 @@ R\textsuperscript{2} Validación: ...\\
     \label{fig:apr_enet_hum}
 \end{figure}
 
-\noindent Comentario/análisis: ...\\
+\noindent \textbf{Análisis de la curva de aprendizaje:}\\
+- MSE Final Entrenamiento: 8.2918\\
+- MSE Final Validación: 8.7348\\
+- Diagnóstico: SUBAJUSTE\\
+
+% Actual vs Predicho (Entrenamiento y Validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/enet_actual_vs_predicho_hum.png}
+    \caption{Actual vs Predicho - ElasticNet (Humedad)}
+    \label{fig:actual_vs_predicho_enet_hum}
+\end{figure}
+
+% Serie temporal: Humedad real vs predicha (validación)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/enet_serie_hum.png}
+    \caption{Serie temporal de Humedad real vs predicha (validación, ElasticNet)}
+    \label{fig:serie_temporal_enet_hum}
+\end{figure}
+
+% Gráfica de errores absolutos en el tiempo
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{img/enet_error_abs_hum.png}
+    \caption{Evolución del error absoluto en el tiempo - ElasticNet - Humedad}
+    \label{fig:error_abs_enet_hum}
+\end{figure}
+
+% Histograma de la distribución de errores absolutos
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{img/enet_hist_error_hum.png}
+    \caption{Distribución de errores absolutos - ElasticNet - Humedad}
+    \label{fig:hist_error_enet_hum}
+\end{figure}
+
+% Tabla resumen de métricas
+\begin{table}[H]
+    \centering
+    \caption{Resultados del modelo ElasticNet (Humedad)}
+    \begin{tabular}{@{}lc@{}}
+        \toprule
+        \textbf{Métrica} & \textbf{ElasticNet} \\
+        \midrule
+        MSE (Test) & 10.1988 \\
+        R\textsuperscript{2} (Test) & 0.1417 \\
+        Error Promedio & 2.5301 \\
+        Error Máximo & 9.7765 \\
+        Error Mínimo & 0.1493 \\
+        Desviación Estándar del Error & 1.9487 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\noindent Comentario/análisis: [comentario notebook]\\
 
 

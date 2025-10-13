@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.12)  13 OCT 2025 02:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.10.12)  13 OCT 2025 11:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2083,6 +2083,9 @@ LaTeX Warning: Label `fig:placeholder' multiply defined.
 
 LaTeX Warning: Label `fig:placeholder' multiply defined.
 
+
+LaTeX Warning: Label `fig:error_abs_evol_poly_temp' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -2322,28 +2325,38 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
+ (main.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+ [1
 
-No file main.lof.
+
+
+]
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+ [2{C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
-No file main.lot.
+ (main.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
-[1
-
-
-
-] (example.tex
-<./img//cccc.png, id=63, 1072.4868pt x 711.1368pt>
+ [3{C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] (example.tex
+<./img//cccc.png, id=275, 1072.4868pt x 711.1368pt>
 File: ./img//cccc.png Graphic file (type png)
 <use ./img//cccc.png>
 Package pdftex.def Info: ./img//cccc.png  used on input line 22.
 (pdftex.def)             Requested size: 407.66867pt x 270.31075pt.
-<./img//entreamiento-humedad.png, id=65, 566.5968pt x 422.0568pt>
+<./img//entreamiento-humedad.png, id=277, 566.5968pt x 422.0568pt>
 File: ./img//entreamiento-humedad.png Graphic file (type png)
 <use ./img//entreamiento-humedad.png>
 Package pdftex.def Info: ./img//entreamiento-humedad.png  used on input line 31.
@@ -2353,12 +2366,12 @@ LaTeX Info: Redefining \% on input line 35.
  [1
 
  <./img//cccc.png>]
-<./img//curav de validacion temperatura.png, id=73, 566.5968pt x 422.0568pt>
+<./img//curav de validacion temperatura.png, id=284, 566.5968pt x 422.0568pt>
 File: ./img//curav de validacion temperatura.png Graphic file (type png)
 <use ./img//curav de validacion temperatura.png>
 Package pdftex.def Info: ./img//curav de validacion temperatura.png  used on input line 41.
 (pdftex.def)             Requested size: 226.48413pt x 168.7038pt.
-<./img//grarfica de pariedad.png, id=74, 445.1832pt x 405.4347pt>
+<./img//grarfica de pariedad.png, id=285, 445.1832pt x 405.4347pt>
 File: ./img//grarfica de pariedad.png Graphic file (type png)
 <use ./img//grarfica de pariedad.png>
 Package pdftex.def Info: ./img//grarfica de pariedad.png  used on input line 53.
@@ -2366,7 +2379,7 @@ Package pdftex.def Info: ./img//grarfica de pariedad.png  used on input line 53.
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
  [2 <./img//entreamiento-humedad.png> <./img//curav de validacion temperatura.png>]
-<./img//pariedad temperatura.png, id=84, 435.7881pt x 405.4347pt>
+<./img//pariedad temperatura.png, id=293, 435.7881pt x 405.4347pt>
 File: ./img//pariedad temperatura.png Graphic file (type png)
 <use ./img//pariedad temperatura.png>
 Package pdftex.def Info: ./img//pariedad temperatura.png  used on input line 65.
@@ -2374,14 +2387,568 @@ Package pdftex.def Info: ./img//pariedad temperatura.png  used on input line 65.
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
  [3 <./img//grarfica de pariedad.png> <./img//pariedad temperatura.png>]
-<./img//curva de aprendizaje.png, id=95, 1074.6549pt x 424.2249pt>
+<./img//curva de aprendizaje.png, id=303, 1074.6549pt x 424.2249pt>
 File: ./img//curva de aprendizaje.png Graphic file (type png)
 <use ./img//curva de aprendizaje.png>
 Package pdftex.def Info: ./img//curva de aprendizaje.png  used on input line 79.
 (pdftex.def)             Requested size: 339.7262pt x 134.11055pt.
-<./img//descargar.png, id=96, 713.3049pt x 423.5022pt>
+<./img//descargar.png, id=304, 713.3049pt x 423.5022pt>
 File: ./img//descargar.png Graphic file (type png)
 <use ./img//descargar.png>
 Package pdftex.def Info: ./img//descargar.png  used on input line 106.
 (pdftex.def)             Requested size: 339.7262pt x 201.70198pt.
-LaTeX Info: Redefinin
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
+ [4{C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./img//curva de aprendizaje.png>]
+<./img//compromiso ses-variance humedad.png, id=312, 857.8449pt x 496.4949pt>
+File: ./img//compromiso ses-variance humedad.png Graphic file (type png)
+<use ./img//compromiso ses-variance humedad.png>
+Package pdftex.def Info: ./img//compromiso ses-variance humedad.png  used on input line 117.
+(pdftex.def)             Requested size: 339.7262pt x 196.62471pt.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
+ [5 <./img//descargar.png> <./img//compromiso ses-variance humedad.png>]
+<./img//2.png, id=320, 945.5325pt x 475.17525pt>
+File: ./img//2.png Graphic file (type png)
+<use ./img//2.png>
+Package pdftex.def Info: ./img//2.png  used on input line 143.
+(pdftex.def)             Requested size: 226.48413pt x 113.81961pt.
+<./img//3.png, id=321, 1144.7568pt x 710.4141pt>
+File: ./img//3.png Graphic file (type png)
+<use ./img//3.png>
+Package pdftex.def Info: ./img//3.png  used on input line 150.
+(pdftex.def)             Requested size: 226.48413pt x 140.55185pt.
+<./img//eeeeeee.png, id=322, 446.26724pt x 351.714pt>
+File: ./img//eeeeeee.png Graphic file (type png)
+<use ./img//eeeeeee.png>
+Package pdftex.def Info: ./img//eeeeeee.png  used on input line 156.
+(pdftex.def)             Requested size: 226.48413pt x 178.497pt.
+<./img//5.png, id=323, 411.939pt x 471.56175pt>
+File: ./img//5.png Graphic file (type png)
+<use ./img//5.png>
+Package pdftex.def Info: ./img//5.png  used on input line 162.
+(pdftex.def)             Requested size: 226.48413pt x 259.25902pt.
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+ [6 <./img//2.png> <./img//3.png> <./img//eeeeeee.png>]
+<./img//naaaa.png, id=332, 1289.2968pt x 855.6768pt>
+File: ./img//naaaa.png Graphic file (type png)
+<use ./img//naaaa.png>
+Package pdftex.def Info: ./img//naaaa.png  used on input line 189.
+(pdftex.def)             Requested size: 339.7262pt x 225.46066pt.
+LaTeX Info: Redefining \. on input line 192.
+LaTeX Info: Redefining \% on input line 192.
+ [7 <./img//5.png>]
+<./img//nddddssd.png, id=339, 368.577pt x 210.7875pt>
+File: ./img//nddddssd.png Graphic file (type png)
+<use ./img//nddddssd.png>
+Package pdftex.def Info: ./img//nddddssd.png  used on input line 195.
+(pdftex.def)             Requested size: 339.7262pt x 194.29352pt.
+<./img//xxxx.png, id=340, 449.88075pt x 291.489pt>
+File: ./img//xxxx.png Graphic file (type png)
+<use ./img//xxxx.png>
+Package pdftex.def Info: ./img//xxxx.png  used on input line 201.
+(pdftex.def)             Requested size: 339.7262pt x 220.1151pt.
+LaTeX Info: Redefining \. on input line 204.
+LaTeX Info: Redefining \% on input line 204.
+ [8 <./img//naaaa.png> <./img//nddddssd.png>]
+<img/RLapr.png, id=348, 570.2103pt x 354.123pt>
+File: img/RLapr.png Graphic file (type png)
+<use img/RLapr.png>
+Package pdftex.def Info: img/RLapr.png  used on input line 221.
+(pdftex.def)             Requested size: 339.7262pt x 210.98947pt.
+LaTeX Info: Redefining \. on input line 231.
+LaTeX Info: Redefining \% on input line 231.
+ [9 <./img//xxxx.png> <./img/RLapr.png>]
+<img/RLval.png, id=358, 570.933pt x 354.123pt>
+File: img/RLval.png Graphic file (type png)
+<use img/RLval.png>
+Package pdftex.def Info: img/RLval.png  used on input line 240.
+(pdftex.def)             Requested size: 339.7262pt x 210.7247pt.
+<img/RLsesgo_varianza.png, id=359, 642.4803pt x 426.393pt>
+File: img/RLsesgo_varianza.png Graphic file (type png)
+<use img/RLsesgo_varianza.png>
+Package pdftex.def Info: img/RLsesgo_varianza.png  used on input line 250.
+(pdftex.def)             Requested size: 339.7262pt x 225.4667pt.
+LaTeX Info: Redefining \. on input line 259.
+LaTeX Info: Redefining \% on input line 259.
+ [10 <./img/RLval.png> <./img/RLsesgo_varianza.png>]
+<img/RLpar.png, id=367, 497.2176pt x 426.393pt>
+File: img/RLpar.png Graphic file (type png)
+<use img/RLpar.png>
+Package pdftex.def Info: img/RLpar.png  used on input line 266.
+(pdftex.def)             Requested size: 226.48413pt x 194.22382pt.
+<img/RL_actual_vs_predicho.png, id=368, 497.2176pt x 426.393pt>
+File: img/RL_actual_vs_predicho.png Graphic file (type png)
+<use img/RL_actual_vs_predicho.png>
+Package pdftex.def Info: img/RL_actual_vs_predicho.png  used on input line 280.
+(pdftex.def)             Requested size: 339.7262pt x 291.34874pt.
+LaTeX Info: Redefining \. on input line 284.
+LaTeX Info: Redefining \% on input line 284.
+ [11 <./img/RLpar.png>]
+<img/RLserie_temp.png, id=375, 841.9455pt x 341.8371pt>
+File: img/RLserie_temp.png Graphic file (type png)
+<use img/RLserie_temp.png>
+Package pdftex.def Info: img/RLserie_temp.png  used on input line 288.
+(pdftex.def)             Requested size: 339.7262pt x 137.93208pt.
+<img/RLerror_abs.png, id=376, 859.2903pt x 281.853pt>
+File: img/RLerror_abs.png Graphic file (type png)
+<use img/RLerror_abs.png>
+Package pdftex.def Info: img/RLerror_abs.png  used on input line 296.
+(pdftex.def)             Requested size: 339.7262pt x 111.43178pt.
+<img/RLhist_error.png, id=377, 570.933pt x 281.853pt>
+File: img/RLhist_error.png Graphic file (type png)
+<use img/RLhist_error.png>
+Package pdftex.def Info: img/RLhist_error.png  used on input line 304.
+(pdftex.def)             Requested size: 271.7837pt x 134.17401pt.
+LaTeX Info: Redefining \. on input line 308.
+LaTeX Info: Redefining \% on input line 308.
+ [12 <./img/RL_actual_vs_predicho.png> <./img/RLserie_temp.png> <./img/RLerror_abs.png>]
+<img/aprendizaje_lineal_hum.png, id=386, 570.2103pt x 354.123pt>
+File: img/aprendizaje_lineal_hum.png Graphic file (type png)
+<use img/aprendizaje_lineal_hum.png>
+Package pdftex.def Info: img/aprendizaje_lineal_hum.png  used on input line 336.
+(pdftex.def)             Requested size: 339.7262pt x 210.98947pt.
+LaTeX Info: Redefining \. on input line 345.
+LaTeX Info: Redefining \% on input line 345.
+ [13 <./img/RLhist_error.png> <./img/aprendizaje_lineal_hum.png>]
+<img/val_lineal_hum.png, id=394, 570.933pt x 354.123pt>
+File: img/val_lineal_hum.png Graphic file (type png)
+<use img/val_lineal_hum.png>
+Package pdftex.def Info: img/val_lineal_hum.png  used on input line 349.
+(pdftex.def)             Requested size: 339.7262pt x 210.7247pt.
+<img/sesgo_varianza_lineal_hum.png, id=395, 642.4803pt x 426.393pt>
+File: img/sesgo_varianza_lineal_hum.png Graphic file (type png)
+<use img/sesgo_varianza_lineal_hum.png>
+Package pdftex.def Info: img/sesgo_varianza_lineal_hum.png  used on input line 359.
+(pdftex.def)             Requested size: 339.7262pt x 225.4667pt.
+LaTeX Info: Redefining \. on input line 370.
+LaTeX Info: Redefining \% on input line 370.
+ [14 <./img/val_lineal_hum.png> <./img/sesgo_varianza_lineal_hum.png>]
+<img/paridad_lineal_hum.png, id=403, 498.663pt x 426.393pt>
+File: img/paridad_lineal_hum.png Graphic file (type png)
+<use img/paridad_lineal_hum.png>
+Package pdftex.def Info: img/paridad_lineal_hum.png  used on input line 374.
+(pdftex.def)             Requested size: 226.48413pt x 193.65778pt.
+<img/actual_vs_predicho_lineal_hum.png, id=404, 720.5319pt x 396.0396pt>
+File: img/actual_vs_predicho_lineal_hum.png Graphic file (type png)
+<use img/actual_vs_predicho_lineal_hum.png>
+Package pdftex.def Info: img/actual_vs_predicho_lineal_hum.png  used on input line 388.
+(pdftex.def)             Requested size: 339.7262pt x 186.7369pt.
+<img/serie_lineal_hum.png, id=405, 832.5504pt x 341.8371pt>
+File: img/serie_lineal_hum.png Graphic file (type png)
+<use img/serie_lineal_hum.png>
+Package pdftex.def Info: img/serie_lineal_hum.png  used on input line 396.
+(pdftex.def)             Requested size: 339.7262pt x 139.48645pt.
+LaTeX Info: Redefining \. on input line 400.
+LaTeX Info: Redefining \% on input line 400.
+ [15 <./img/paridad_lineal_hum.png> <./img/actual_vs_predicho_lineal_hum.png>]
+<img/error_abs_lineal_hum.png, id=414, 859.2903pt x 281.853pt>
+File: img/error_abs_lineal_hum.png Graphic file (type png)
+<use img/error_abs_lineal_hum.png>
+Package pdftex.def Info: img/error_abs_lineal_hum.png  used on input line 404.
+(pdftex.def)             Requested size: 339.7262pt x 111.43178pt.
+<img/hist_error_lineal_hum.png, id=415, 570.933pt x 281.853pt>
+File: img/hist_error_lineal_hum.png Graphic file (type png)
+<use img/hist_error_lineal_hum.png>
+Package pdftex.def Info: img/hist_error_lineal_hum.png  used on input line 412.
+(pdftex.def)             Requested size: 271.7837pt x 134.17401pt.
+LaTeX Info: Redefining \. on input line 439.
+LaTeX Info: Redefining \% on input line 439.
+ [16 <./img/serie_lineal_hum.png> <./img/error_abs_lineal_hum.png> <./img/hist_error_lineal_hum.png>]
+<img/val_poly_temp.png, id=424, 570.933pt x 354.123pt>
+File: img/val_poly_temp.png Graphic file (type png)
+<use img/val_poly_temp.png>
+Package pdftex.def Info: img/val_poly_temp.png  used on input line 444.
+(pdftex.def)             Requested size: 339.7262pt x 210.7247pt.
+<img/paridad_poly_temp.png, id=425, 497.2176pt x 426.393pt>
+File: img/paridad_poly_temp.png Graphic file (type png)
+<use img/paridad_poly_temp.png>
+Package pdftex.def Info: img/paridad_poly_temp.png  used on input line 454.
+(pdftex.def)             Requested size: 226.48413pt x 194.22382pt.
+<img/aprendizaje_poly_temp.png, id=426, 570.2103pt x 354.123pt>
+File: img/aprendizaje_poly_temp.png Graphic file (type png)
+<use img/aprendizaje_poly_temp.png>
+Package pdftex.def Info: img/aprendizaje_poly_temp.png  used on input line 467.
+(pdftex.def)             Requested size: 339.7262pt x 210.98947pt.
+LaTeX Info: Redefining \. on input line 471.
+LaTeX Info: Redefining \% on input line 471.
+ [17 <./img/val_poly_temp.png> <./img/paridad_poly_temp.png>]
+<img/actual_vs_predicho_poly_temp.png, id=434, 729.927pt x 396.0396pt>
+File: img/actual_vs_predicho_poly_temp.png Graphic file (type png)
+<use img/actual_vs_predicho_poly_temp.png>
+Package pdftex.def Info: img/actual_vs_predicho_poly_temp.png  used on input line 480.
+(pdftex.def)             Requested size: 339.7262pt x 184.3257pt.
+<img/serie_poly_temp.png, id=435, 841.9455pt x 341.8371pt>
+File: img/serie_poly_temp.png Graphic file (type png)
+<use img/serie_poly_temp.png>
+Package pdftex.def Info: img/serie_poly_temp.png  used on input line 488.
+(pdftex.def)             Requested size: 339.7262pt x 137.93208pt.
+LaTeX Info: Redefining \. on input line 492.
+LaTeX Info: Redefining \% on input line 492.
+ [18 <./img/aprendizaje_poly_temp.png> <./img/actual_vs_predicho_poly_temp.png>]
+<img/error_abs_evol_poly_temp.png, id=443, 859.2903pt x 281.853pt>
+File: img/error_abs_evol_poly_temp.png Graphic file (type png)
+<use img/error_abs_evol_poly_temp.png>
+Package pdftex.def Info: img/error_abs_evol_poly_temp.png  used on input line 496.
+(pdftex.def)             Requested size: 339.7262pt x 111.43178pt.
+<img/hist_error_poly_temp.png, id=444, 570.933pt x 281.853pt>
+File: img/hist_error_poly_temp.png Graphic file (type png)
+<use img/hist_error_poly_temp.png>
+Package pdftex.def Info: img/hist_error_poly_temp.png  used on input line 504.
+(pdftex.def)             Requested size: 271.7837pt x 134.17401pt.
+LaTeX Info: Redefining \. on input line 527.
+LaTeX Info: Redefining \% on input line 527.
+ [19 <./img/serie_poly_temp.png> <./img/error_abs_evol_poly_temp.png> <./img/hist_error_poly_temp.png>]
+<img/val_poly_hum.png, id=453, 570.933pt x 354.123pt>
+File: img/val_poly_hum.png Graphic file (type png)
+<use img/val_poly_hum.png>
+Package pdftex.def Info: img/val_poly_hum.png  used on input line 537.
+(pdftex.def)             Requested size: 339.7262pt x 210.7247pt.
+<img/paridad_poly_hum.png, id=454, 498.663pt x 426.393pt>
+File: img/paridad_poly_hum.png Graphic file (type png)
+<use img/paridad_poly_hum.png>
+Package pdftex.def Info: img/paridad_poly_hum.png  used on input line 547.
+(pdftex.def)             Requested size: 226.48413pt x 193.65778pt.
+LaTeX Info: Redefining \. on input line 551.
+LaTeX Info: Redefining \% on input line 551.
+ [20 <./img/val_poly_hum.png>]
+<img/aprendizaje_poly_hum.png, id=461, 570.2103pt x 354.123pt>
+File: img/aprendizaje_poly_hum.png Graphic file (type png)
+<use img/aprendizaje_poly_hum.png>
+Package pdftex.def Info: img/aprendizaje_poly_hum.png  used on input line 561.
+(pdftex.def)             Requested size: 339.7262pt x 210.98947pt.
+<img/actual_vs_predicho_poly_hum.png, id=462, 720.5319pt x 396.0396pt>
+File: img/actual_vs_predicho_poly_hum.png Graphic file (type png)
+<use img/actual_vs_predicho_poly_hum.png>
+Package pdftex.def Info: img/actual_vs_predicho_poly_hum.png  used on input line 575.
+(pdftex.def)             Requested size: 339.7262pt x 186.7369pt.
+LaTeX Info: Redefining \. on input line 579.
+LaTeX Info: Redefining \% on input line 579.
+ [21 <./img/paridad_poly_hum.png> <./img/aprendizaje_poly_hum.png>]
+<img/serie_poly_hum.png, id=471, 832.5504pt x 341.8371pt>
+File: img/serie_poly_hum.png Graphic file (type png)
+<use img/serie_poly_hum.png>
+Package pdftex.def Info: img/serie_poly_hum.png  used on input line 583.
+(pdftex.def)             Requested size: 339.7262pt x 139.48645pt.
+<img/error_abs_evol_poly_hum.png, id=472, 859.2903pt x 281.853pt>
+File: img/error_abs_evol_poly_hum.png Graphic file (type png)
+<use img/error_abs_evol_poly_hum.png>
+Package pdftex.def Info: img/error_abs_evol_poly_hum.png  used on input line 591.
+(pdftex.def)             Requested size: 339.7262pt x 111.43178pt.
+<img/hist_error_poly_hum.png, id=473, 570.933pt x 281.853pt>
+File: img/hist_error_poly_hum.png Graphic file (type png)
+<use img/hist_error_poly_hum.png>
+Package pdftex.def Info: img/hist_error_poly_hum.png  used on input line 599.
+(pdftex.def)             Requested size: 271.7837pt x 134.17401pt.
+LaTeX Info: Redefining \. on input line 603.
+LaTeX Info: Redefining \% on input line 603.
+ [22 <./img/actual_vs_predicho_poly_hum.png> <./img/serie_poly_hum.png> <./img/error_abs_evol_poly_hum.png>]
+<img/val_ridge_temp.png, id=482, 570.933pt x 354.123pt>
+File: img/val_ridge_temp.png Graphic file (type png)
+<use img/val_ridge_temp.png>
+Package pdftex.def Info: img/val_ridge_temp.png  used on input line 632.
+(pdftex.def)             Requested size: 339.7262pt x 210.7247pt.
+LaTeX Font Info:    Calculating math sizes for size <10.03757> on input line 633.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.03757> on input line 633.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.02626> on input line 633.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.01878> on input line 633.
+<img/paridad_ridge_temp.png, id=483, 497.2176pt x 426.393pt>
+File: img/paridad_ridge_temp.png Graphic file (type png)
+<use img/paridad_ridge_temp.png>
+Package pdftex.def Info: img/paridad_ridge_temp.png  used on input line 642.
+(pdftex.def)             Requested size: 226.48413pt x 194.22382pt.
+LaTeX Info: Redefining \. on input line 645.
+LaTeX Info: Redefining \% on input line 645.
+ [23 <./img/hist_error_poly_hum.png> <./img/val_ridge_temp.png>]
+<img/aprendizaje_ridge_temp.png, id=492, 570.2103pt x 354.123pt>
+File: img/aprendizaje_ridge_temp.png Graphic file (type png)
+<use img/aprendizaje_ridge_temp.png>
+Package pdftex.def Info: img/aprendizaje_ridge_temp.png  used on input line 656.
+(pdftex.def)             Requested size: 339.7262pt x 210.98947pt.
+<img/ridge_actual_vs_predicho_temp.png, id=493, 735.7086pt x 395.3169pt>
+File: img/ridge_actual_vs_predicho_temp.png Graphic file (type png)
+<use img/ridge_actual_vs_predicho_temp.png>
+Package pdftex.def Info: img/ridge_actual_vs_predicho_temp.png  used on input line 669.
+(pdftex.def)             Requested size: 339.7262pt x 182.54768pt.
+LaTeX Info: Redefining \. on input line 673.
+LaTeX Info: Redefining \% on input line 673.
+ [24 <./img/paridad_ridge_temp.png> <./img/aprendizaje_ridge_temp.png>]
+<img/ridge_serie_temp.png, id=502, 1003.8303pt x 354.123pt>
+File: img/ridge_serie_temp.png Graphic file (type png)
+<use img/ridge_serie_temp.png>
+Package pdftex.def Info: img/ridge_serie_temp.png  used on input line 677.
+(pdftex.def)             Requested size: 339.7262pt x 119.84366pt.
+<img/ridge_error_abs_temp.png, id=503, 859.2903pt x 281.853pt>
+File: img/ridge_error_abs_temp.png Graphic file (type png)
+<use img/ridge_error_abs_temp.png>
+Package pdftex.def Info: img/ridge_error_abs_temp.png  used on input line 685.
+(pdftex.def)             Requested size: 339.7262pt x 111.43178pt.
+<img/ridge_hist_error_temp.png, id=504, 570.933pt x 281.853pt>
+File: img/ridge_hist_error_temp.png Graphic file (type png)
+<use img/ridge_hist_error_temp.png>
+Package pdftex.def Info: img/ridge_hist_error_temp.png  used on input line 693.
+(pdftex.def)             Requested size: 271.7837pt x 134.17401pt.
+LaTeX Info: Redefining \. on input line 697.
+LaTeX Info: Redefining \% on input line 697.
+ [25 <./img/ridge_actual_vs_predicho_temp.png> <./img/ridge_serie_temp.png> <./img/ridge_error_abs_temp.png>]
+<img/val_ridge_hum.png, id=513, 570.933pt x 354.123pt>
+File: img/val_ridge_hum.png Graphic file (type png)
+<use img/val_ridge_hum.png>
+Package pdftex.def Info: img/val_ridge_hum.png  used on input line 726.
+(pdftex.def)             Requested size: 339.7262pt x 210.7247pt.
+<img/paridad_ridge_hum.png, id=514, 498.663pt x 426.393pt>
+File: img/paridad_ridge_hum.png Graphic file (type png)
+<use img/paridad_ridge_hum.png>
+Package pdftex.def Info: img/paridad_ridge_hum.png  used on input line 736.
+(pdftex.def)             Requested size: 226.48413pt x 193.65778pt.
+LaTeX Info: Redefining \. on input line 739.
+LaTeX Info: Redefining \% on input line 739.
+ [26 <./img/ridge_hist_error_temp.png> <./img/val_ridge_hum.png>]
+<img/aprendizaje_ridge_hum.png, id=522, 570.2103pt x 354.123pt>
+File: img/aprendizaje_ridge_hum.png Graphic file (type png)
+<use img/aprendizaje_ridge_hum.png>
+Package pdftex.def Info: img/aprendizaje_ridge_hum.png  used on input line 750.
+(pdftex.def)             Requested size: 339.7262pt x 210.98947pt.
+<img/ridge_actual_vs_predicho_hum.png, id=523, 720.5319pt x 395.3169pt>
+File: img/ridge_actual_vs_predicho_hum.png Graphic file (type png)
+<use img/ridge_actual_vs_predicho_hum.png>
+Package pdftex.def Info: img/ridge_actual_vs_predicho_hum.png  used on input line 763.
+(pdftex.def)             Requested size: 339.7262pt x 186.39613pt.
+LaTeX Info: Redefining \. on input line 767.
+LaTeX Info: Redefining \% on input line 767.
+ [27 <./img/paridad_ridge_hum.png> <./img/aprendizaje_ridge_hum.png>]
+<img/ridge_serie_hum.png, id=532, 1003.8303pt x 354.123pt>
+File: img/ridge_serie_hum.png Graphic file (type png)
+<use img/ridge_serie_hum.png>
+Package pdftex.def Info: img/ridge_serie_hum.png  used on input line 771.
+(pdftex.def)             Requested size: 339.7262pt x 119.84366pt.
+<img/ridge_error_abs_hum.png, id=533, 859.2903pt x 281.853pt>
+File: img/ridge_error_abs_hum.png Graphic file (type png)
+<use img/ridge_error_abs_hum.png>
+Package pdftex.def Info: img/ridge_error_abs_hum.png  used on input line 779.
+(pdftex.def)             Requested size: 339.7262pt x 111.43178pt.
+<img/ridge_hist_error_hum.png, id=534, 570.933pt x 281.853pt>
+File: img/ridge_hist_error_hum.png Graphic file (type png)
+<use img/ridge_hist_error_hum.png>
+Package pdftex.def Info: img/ridge_hist_error_hum.png  used on input line 787.
+(pdftex.def)             Requested size: 271.7837pt x 134.17401pt.
+LaTeX Info: Redefining \. on input line 791.
+LaTeX Info: Redefining \% on input line 791.
+ [28 <./img/ridge_actual_vs_predicho_hum.png> <./img/ridge_serie_hum.png> <./img/ridge_error_abs_hum.png>]
+<img/val_lasso_temp.png, id=543, 570.933pt x 353.4003pt>
+File: img/val_lasso_temp.png Graphic file (type png)
+<use img/val_lasso_temp.png>
+Package pdftex.def Info: img/val_lasso_temp.png  used on input line 820.
+(pdftex.def)             Requested size: 339.7262pt x 210.29465pt.
+<img/paridad_lasso_temp.png, id=544, 497.2176pt x 426.393pt>
+File: img/paridad_lasso_temp.png Graphic file (type png)
+<use img/paridad_lasso_temp.png>
+Package pdftex.def Info: img/paridad_lasso_temp.png  used on input line 830.
+(pdftex.def)             Requested size: 226.48413pt x 194.22382pt.
+LaTeX Info: Redefining \. on input line 833.
+LaTeX Info: Redefining \% on input line 833.
+ [29 <./img/ridge_hist_error_hum.png> <./img/val_lasso_temp.png>]
+<img/aprendizaje_lasso_temp.png, id=552, 570.2103pt x 354.123pt>
+File: img/aprendizaje_lasso_temp.png Graphic file (type png)
+<use img/aprendizaje_lasso_temp.png>
+Package pdftex.def Info: img/aprendizaje_lasso_temp.png  used on input line 844.
+(pdftex.def)             Requested size: 339.7262pt x 210.98947pt.
+<img/lasso_actual_vs_predicho_temp.png, id=553, 735.7086pt x 395.3169pt>
+File: img/lasso_actual_vs_predicho_temp.png Graphic file (type png)
+<use img/lasso_actual_vs_predicho_temp.png>
+Package pdftex.def Info: img/lasso_actual_vs_predicho_temp.png  used on input line 857.
+(pdftex.def)             Requested size: 339.7262pt x 182.54768pt.
+LaTeX Info: Redefining \. on input line 861.
+LaTeX Info: Redefining \% on input line 861.
+ [30 <./img/paridad_lasso_temp.png> <./img/aprendizaje_lasso_temp.png>]
+<img/lasso_serie_temp.png, id=561, 1003.8303pt x 354.123pt>
+File: img/lasso_serie_temp.png Graphic file (type png)
+<use img/lasso_serie_temp.png>
+Package pdftex.def Info: img/lasso_serie_temp.png  used on input line 865.
+(pdftex.def)             Requested size: 339.7262pt x 119.84366pt.
+<img/lasso_error_abs_temp.png, id=562, 859.2903pt x 281.853pt>
+File: img/lasso_error_abs_temp.png Graphic file (type png)
+<use img/lasso_error_abs_temp.png>
+Package pdftex.def Info: img/lasso_error_abs_temp.png  used on input line 873.
+(pdftex.def)             Requested size: 339.7262pt x 111.43178pt.
+<img/lasso_hist_error_temp.png, id=563, 570.933pt x 281.853pt>
+File: img/lasso_hist_error_temp.png Graphic file (type png)
+<use img/lasso_hist_error_temp.png>
+Package pdftex.def Info: img/lasso_hist_error_temp.png  used on input line 881.
+(pdftex.def)             Requested size: 271.7837pt x 134.17401pt.
+LaTeX Info: Redefining \. on input line 885.
+LaTeX Info: Redefining \% on input line 885.
+ [31 <./img/lasso_actual_vs_predicho_temp.png> <./img/lasso_serie_temp.png> <./img/lasso_error_abs_temp.png>]
+<img/val_lasso_hum.png, id=572, 570.933pt x 353.4003pt>
+File: img/val_lasso_hum.png Graphic file (type png)
+<use img/val_lasso_hum.png>
+Package pdftex.def Info: img/val_lasso_hum.png  used on input line 914.
+(pdftex.def)             Requested size: 339.7262pt x 210.29465pt.
+<img/paridad_lasso_hum.png, id=573, 498.663pt x 426.393pt>
+File: img/paridad_lasso_hum.png Graphic file (type png)
+<use img/paridad_lasso_hum.png>
+Package pdftex.def Info: img/paridad_lasso_hum.png  used on input line 924.
+(pdftex.def)             Requested size: 226.48413pt x 193.65778pt.
+LaTeX Info: Redefining \. on input line 927.
+LaTeX Info: Redefining \% on input line 927.
+ [32 <./img/lasso_hist_error_temp.png> <./img/val_lasso_hum.png>]
+<img/aprendizaje_lasso_hum.png, id=581, 570.2103pt x 354.123pt>
+File: img/aprendizaje_lasso_hum.png Graphic file (type png)
+<use img/aprendizaje_lasso_hum.png>
+Package pdftex.def Info: img/aprendizaje_lasso_hum.png  used on input line 938.
+(pdftex.def)             Requested size: 339.7262pt x 210.98947pt.
+<img/lasso_actual_vs_predicho_hum.png, id=582, 720.5319pt x 395.3169pt>
+File: img/lasso_actual_vs_predicho_hum.png Graphic file (type png)
+<use img/lasso_actual_vs_predicho_hum.png>
+Package pdftex.def Info: img/lasso_actual_vs_predicho_hum.png  used on input line 951.
+(pdftex.def)             Requested size: 339.7262pt x 186.39613pt.
+LaTeX Info: Redefining \. on input line 955.
+LaTeX Info: Redefining \% on input line 955.
+ [33 <./img/paridad_lasso_hum.png> <./img/aprendizaje_lasso_hum.png>]
+<img/lasso_serie_hum.png, id=591, 1003.8303pt x 354.123pt>
+File: img/lasso_serie_hum.png Graphic file (type png)
+<use img/lasso_serie_hum.png>
+Package pdftex.def Info: img/lasso_serie_hum.png  used on input line 959.
+(pdftex.def)             Requested size: 339.7262pt x 119.84366pt.
+<img/lasso_error_abs_hum.png, id=592, 859.2903pt x 281.853pt>
+File: img/lasso_error_abs_hum.png Graphic file (type png)
+<use img/lasso_error_abs_hum.png>
+Package pdftex.def Info: img/lasso_error_abs_hum.png  used on input line 967.
+(pdftex.def)             Requested size: 339.7262pt x 111.43178pt.
+<img/lasso_hist_error_hum.png, id=593, 570.933pt x 281.853pt>
+File: img/lasso_hist_error_hum.png Graphic file (type png)
+<use img/lasso_hist_error_hum.png>
+Package pdftex.def Info: img/lasso_hist_error_hum.png  used on input line 975.
+(pdftex.def)             Requested size: 271.7837pt x 134.17401pt.
+LaTeX Info: Redefining \. on input line 979.
+LaTeX Info: Redefining \% on input line 979.
+ [34 <./img/lasso_actual_vs_predicho_hum.png> <./img/lasso_serie_hum.png> <./img/lasso_error_abs_hum.png>]
+<img/val_enet_temp.png, id=602, 570.933pt x 353.4003pt>
+File: img/val_enet_temp.png Graphic file (type png)
+<use img/val_enet_temp.png>
+Package pdftex.def Info: img/val_enet_temp.png  used on input line 1007.
+(pdftex.def)             Requested size: 339.7262pt x 210.29465pt.
+<img/paridad_enet_temp.png, id=603, 497.2176pt x 426.393pt>
+File: img/paridad_enet_temp.png Graphic file (type png)
+<use img/paridad_enet_temp.png>
+Package pdftex.def Info: img/paridad_enet_temp.png  used on input line 1017.
+(pdftex.def)             Requested size: 226.48413pt x 194.22382pt.
+LaTeX Info: Redefining \. on input line 1020.
+LaTeX Info: Redefining \% on input line 1020.
+ [35 <./img/lasso_hist_error_hum.png> <./img/val_enet_temp.png>]
+<img/aprendizaje_enet_temp.png, id=612, 570.2103pt x 354.123pt>
+File: img/aprendizaje_enet_temp.png Graphic file (type png)
+<use img/aprendizaje_enet_temp.png>
+Package pdftex.def Info: img/aprendizaje_enet_temp.png  used on input line 1031.
+(pdftex.def)             Requested size: 339.7262pt x 210.98947pt.
+<img/enet_actual_vs_predicho_temp.png, id=613, 729.927pt x 395.3169pt>
+File: img/enet_actual_vs_predicho_temp.png Graphic file (type png)
+<use img/enet_actual_vs_predicho_temp.png>
+Package pdftex.def Info: img/enet_actual_vs_predicho_temp.png  used on input line 1044.
+(pdftex.def)             Requested size: 339.7262pt x 183.98935pt.
+LaTeX Info: Redefining \. on input line 1048.
+LaTeX Info: Redefining \% on input line 1048.
+ [36 <./img/paridad_enet_temp.png> <./img/aprendizaje_enet_temp.png>]
+<img/enet_serie_temp.png, id=621, 855.6768pt x 349.0641pt>
+File: img/enet_serie_temp.png Graphic file (type png)
+<use img/enet_serie_temp.png>
+Package pdftex.def Info: img/enet_serie_temp.png  used on input line 1052.
+(pdftex.def)             Requested size: 339.7262pt x 138.58986pt.
+<img/enet_error_abs_temp.png, id=622, 859.2903pt x 281.853pt>
+File: img/enet_error_abs_temp.png Graphic file (type png)
+<use img/enet_error_abs_temp.png>
+Package pdftex.def Info: img/enet_error_abs_temp.png  used on input line 1060.
+(pdftex.def)             Requested size: 339.7262pt x 111.43178pt.
+<img/enet_hist_error_temp.png, id=623, 565.8741pt x 277.5168pt>
+File: img/enet_hist_error_temp.png Graphic file (type png)
+<use img/enet_hist_error_temp.png>
+Package pdftex.def Info: img/enet_hist_error_temp.png  used on input line 1068.
+(pdftex.def)             Requested size: 271.7837pt x 133.29123pt.
+LaTeX Info: Redefining \. on input line 1072.
+LaTeX Info: Redefining \% on input line 1072.
+ [37 <./img/enet_actual_vs_predicho_temp.png> <./img/enet_serie_temp.png> <./img/enet_error_abs_temp.png>]
+<img/val_enet_hum.png, id=632, 566.5968pt x 349.7868pt>
+File: img/val_enet_hum.png Graphic file (type png)
+<use img/val_enet_hum.png>
+Package pdftex.def Info: img/val_enet_hum.png  used on input line 1100.
+(pdftex.def)             Requested size: 339.7262pt x 209.72426pt.
+<img/paridad_enet_hum.png, id=633, 494.3268pt x 422.0568pt>
+File: img/paridad_enet_hum.png Graphic file (type png)
+<use img/paridad_enet_hum.png>
+Package pdftex.def Info: img/paridad_enet_hum.png  used on input line 1110.
+(pdftex.def)             Requested size: 226.48413pt x 193.37567pt.
+LaTeX Info: Redefining \. on input line 1113.
+LaTeX Info: Redefining \% on input line 1113.
+ [38 <./img/enet_hist_error_temp.png> <./img/val_enet_hum.png>]
+<img/aprendizaje_enet_hum.png, id=642, 565.8741pt x 349.7868pt>
+File: img/aprendizaje_enet_hum.png Graphic file (type png)
+<use img/aprendizaje_enet_hum.png>
+Package pdftex.def Info: img/aprendizaje_enet_hum.png  used on input line 1124.
+(pdftex.def)             Requested size: 339.7262pt x 210.00713pt.
+<img/enet_actual_vs_predicho_hum.png, id=643, 722.7pt x 397.485pt>
+File: img/enet_actual_vs_predicho_hum.png Graphic file (type png)
+<use img/enet_actual_vs_predicho_hum.png>
+Package pdftex.def Info: img/enet_actual_vs_predicho_hum.png  used on input line 1137.
+(pdftex.def)             Requested size: 339.7262pt x 186.8483pt.
+LaTeX Info: Redefining \. on input line 1141.
+LaTeX Info: Redefining \% on input line 1141.
+ [39 <./img/paridad_enet_hum.png> <./img/aprendizaje_enet_hum.png>]
+<img/enet_serie_hum.png, id=652, 855.6768pt x 349.0641pt>
+File: img/enet_serie_hum.png Graphic file (type png)
+<use img/enet_serie_hum.png>
+Package pdftex.def Info: img/enet_serie_hum.png  used on input line 1145.
+(pdftex.def)             Requested size: 339.7262pt x 138.58986pt.
+<img/enet_error_abs_hum.png, id=653, 855.6768pt x 277.5168pt>
+File: img/enet_error_abs_hum.png Graphic file (type png)
+<use img/enet_error_abs_hum.png>
+Package pdftex.def Info: img/enet_error_abs_hum.png  used on input line 1153.
+(pdftex.def)             Requested size: 339.7262pt x 110.18324pt.
+<img/enet_hist_error_hum.png, id=654, 566.5968pt x 277.5168pt>
+File: img/enet_hist_error_hum.png Graphic file (type png)
+<use img/enet_hist_error_hum.png>
+Package pdftex.def Info: img/enet_hist_error_hum.png  used on input line 1161.
+(pdftex.def)             Requested size: 271.7837pt x 133.11761pt.
+LaTeX Info: Redefining \. on input line 1165.
+LaTeX Info: Redefining \% on input line 1165.
+ [40 <./img/enet_actual_vs_predicho_hum.png> <./img/enet_serie_hum.png> <./img/enet_error_abs_hum.png>])
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
+ (C:\Users\adria\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+) [41 <./img/enet_hist_error_hum.png>] (main.aux
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 3636 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 34180 strings out of 474485
+ 588204 string characters out of 5743733
+ 1950542 words of memory out of 5000000
+ 55663 multiletter control sequences out of 15000+600000
+ 633817 words of font info for 103 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 113i,16n,110p,17436b,5722s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/adria/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (45 pages, 5243174 bytes).
+PDF statistics:
+ 813 PDF objects out of 1000 (max. 8388607)
+ 562 compressed objects within 6 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 603 words of extra memory for PDF output out of 10000 (max. 10000000)
+
