@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1760373409.38502 "c:/Users/adria/OneDrive/Documentos/GitHub/ML_LPTM/Actividad_2_ML__nuevo/main.tex" "main.pdf" "main" 1760373419.21218 0
+["pdflatex"] 1760373932.61695 "c:/Users/adria/OneDrive/Documentos/GitHub/ML_LPTM/Actividad_2_ML__nuevo/main.tex" "main.pdf" "main" 1760373942.60888 0
   "/end" 1718658236 35 28d6814f309ea289f847c69cf91194c6 ""
   "C:/Users/adria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1760300078 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/adria/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1760300073 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -261,7 +261,7 @@
   "C:/Users/adria/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1750428951 2269 2de6c7a5fd634dfef00a960544463a38 ""
   "C:/Users/adria/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
   "c:/Users/adria/OneDrive/Documentos/GitHub/ML_LPTM/Actividad_2_ML__nuevo/main.tex" 1760373398 2097 1944548811fa903f8442072103558451 ""
-  "example.tex" 1760373399 40722 5f92edb91caac6505dbb384da492e7e3 ""
+  "example.tex" 1760373932 40725 fe7150b222e1aa8ecb50947ce1dd391d ""
   "img//2.png" 1760317420 148855 1652c7275efba418e249d21cc5921589 ""
   "img//3.png" 1760317420 164881 d84662d509523ddd6817ba6479ed5582 ""
   "img//5.png" 1760317420 58660 16a404368c07499c61089b1bddcced07 ""
@@ -350,11 +350,11 @@
   "img/val_poly_temp.png" 1760357238 48867 8ca336e9bb4c889a523070011bf21f53 ""
   "img/val_ridge_hum.png" 1760364820 38910 1f811a87a3aa5c2696a9f7935dc7a097 ""
   "img/val_ridge_temp.png" 1760363682 52529 2792c437748950c1a7acda918325181f ""
-  "main.aux" 1760373418 38595 1fcf6ed0976e210e27170eacfce5ad44 "pdflatex"
-  "main.lof" 1760373418 12119 acada236ccd59847532addb5f7ab3ab1 "pdflatex"
-  "main.lot" 1760373418 1365 de3924896dd31d4e49e54afd1e5e8f84 "pdflatex"
+  "main.aux" 1760373941 38645 07b2796fd02c1051ff2527aeb7909c60 "pdflatex"
+  "main.lof" 1760373941 12144 0f8e1634c6e7a27d02696aa40a643e24 "pdflatex"
+  "main.lot" 1760373941 1365 de3924896dd31d4e49e54afd1e5e8f84 "pdflatex"
   "main.tex" 1760373398 2097 1944548811fa903f8442072103558451 ""
-  "main.toc" 1760373418 1596 d99438c23e0bd7b1bb941e28d47a4586 "pdflatex"
+  "main.toc" 1760373941 1596 d99438c23e0bd7b1bb941e28d47a4586 "pdflatex"
   "template.tex" 1760317418 374457 c654420953483b804b7c8658a7d50106 ""
   "template_config.tex" 1760317418 21959 2275d3d32079d268af706bd4050d7d8c ""
   (generated)
