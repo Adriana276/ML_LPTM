@@ -1200,3 +1200,10 @@ R\textsuperscript{2} Validación: 0.1417\\
 	\textbf{Temperatura:} ElasticNet combinó las ventajas de Ridge y Lasso, pero el rendimiento fue moderado (R$^2$ ≈ 0.06), sin destacar en precisión.\\
 	\textbf{Humedad:} Para humedad, el desempeño también fue limitado (R$^2$ ≈ 0.14), mostrando subajuste.\\
 	\textit{ElasticNet es útil para mantener la estabilidad del error y evitar el sobreajuste, aunque no fue el más preciso en este caso.}
+
+
+\vspace{2em}
+	\textbf{Conclusión general:}
+El análisis comparativo de los modelos de regresión aplicados sobre los datos de temperatura y humedad permitió determinar que las técnicas no lineales y de kernel ofrecen un mejor desempeño predictivo frente a los métodos lineales simples. El modelo \textit{Kernel Ridge} destacó por su alta precisión en la estimación de la temperatura, mientras que la regresión polinómica mostró un equilibrio adecuado entre complejidad y capacidad de generalización. 
+En contraste, los modelos \textit{Lasso} y \textit{ElasticNet} presentaron menor desempeño debido a la penalización excesiva de coeficientes relevantes. 
+En conjunto, los resultados demuestran la importancia de seleccionar el modelo en función de la naturaleza no lineal de los datos y de validar el ajuste mediante métricas como el R$^2$ y el MSE. Finalmente, el proceso de visualización y diagnóstico confirma la coherencia de los datos obtenidos por el sensor, garantizando la validez del entrenamiento de los modelos propuestos.
