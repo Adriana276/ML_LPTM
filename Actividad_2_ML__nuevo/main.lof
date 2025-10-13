@@ -14,75 +14,75 @@
 \contentsline {figure}{\numberline {13}{\ignorespaces VISUALIZACIÓN COMPLETA CON TODOS LOS DATOS}}{8}{figure.caption.15}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Mejor modelo tomado, regresion lineal, comparacion de humedad predicha vs humedad real}}{8}{figure.caption.16}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Evolución del error en el tiempo}}{9}{figure.caption.17}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Curva de aprendizaje para Temperatura (Regresión Lineal)}}{9}{figure.caption.18}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Curva de Validación del Modelo Lineal para Temperatura (variando complejidad polinómica)}}{10}{figure.caption.19}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Compromiso Sesgo–Varianza - Temperatura (Regresión Lineal Polinómica)}}{10}{figure.caption.20}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (Entrenamiento y Validación)}}{11}{figure.caption.21}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Curva de aprendizaje para Temperatura (Regresión Lineal)}}{10}{figure.caption.18}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Curva de Validación del Modelo Lineal para Temperatura (variando complejidad polinómica)}}{11}{figure.caption.19}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Compromiso Sesgo–Varianza - Temperatura (Regresión Lineal Polinómica)}}{11}{figure.caption.20}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (Entrenamiento y Validación)}}{12}{figure.caption.21}%
 \contentsline {figure}{\numberline {20}{\ignorespaces Actual vs Predicho - Regresión Lineal (Temperatura)}}{12}{figure.caption.22}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación)}}{12}{figure.caption.23}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Evolución del error absoluto en el tiempo - Temperatura}}{12}{figure.caption.24}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación)}}{13}{figure.caption.23}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Evolución del error absoluto en el tiempo - Temperatura}}{13}{figure.caption.24}%
 \contentsline {figure}{\numberline {23}{\ignorespaces Distribución de errores absolutos - Regresión Lineal - Temperatura}}{13}{figure.caption.25}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Curva de aprendizaje para Humedad (Regresión Lineal)}}{13}{figure.caption.27}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Curva de aprendizaje para Humedad (Regresión Lineal)}}{14}{figure.caption.27}%
 \contentsline {figure}{\numberline {25}{\ignorespaces Curva de Validación del Modelo Lineal para Humedad (variando complejidad polinómica)}}{14}{figure.caption.28}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Compromiso Sesgo–Varianza - Humedad (Regresión Lineal Polinómica)}}{14}{figure.caption.29}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Compromiso Sesgo–Varianza - Humedad (Regresión Lineal Polinómica)}}{15}{figure.caption.29}%
 \contentsline {figure}{\numberline {27}{\ignorespaces Curva de paridad de la Humedad real vs la predicha (Entrenamiento y Validación)}}{15}{figure.caption.30}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Actual vs Predicho - Regresión Lineal (Humedad)}}{15}{figure.caption.31}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Actual vs Predicho - Regresión Lineal (Humedad)}}{16}{figure.caption.31}%
 \contentsline {figure}{\numberline {29}{\ignorespaces Serie temporal de Humedad real vs predicha (validación)}}{16}{figure.caption.32}%
 \contentsline {figure}{\numberline {30}{\ignorespaces Evolución del error absoluto en el tiempo - Humedad}}{16}{figure.caption.33}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Distribución de errores absolutos - Regresión Lineal - Humedad}}{16}{figure.caption.34}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Curva de Validación del Modelo Polinómico para Temperatura}}{17}{figure.caption.36}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (Polinómica)}}{17}{figure.caption.37}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Curva de aprendizaje para Temperatura (Polinómica)}}{18}{figure.caption.38}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Actual vs Predicho - Regresión Polinómica (Temperatura)}}{18}{figure.caption.39}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación, Polinómica)}}{19}{figure.caption.40}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Evolución del error absoluto en el tiempo - Regresión Polinómica - Temperatura}}{19}{figure.caption.41}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Distribución de errores absolutos - Regresión Polinómica - Temperatura}}{19}{figure.caption.42}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Curva de Validación del Modelo no Lineal para Humedad}}{20}{figure.caption.44}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Curva de paridad de la Humedad real vs la predicha (Regresión no Lineal)}}{21}{figure.caption.45}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Curva de aprendizaje para Humedad (Regresión no Lineal)}}{21}{figure.caption.46}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Actual vs Predicho - Regresión no Lineal (Humedad)}}{22}{figure.caption.47}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Serie temporal de Humedad real vs predicha (validación, Regresión no Lineal)}}{22}{figure.caption.48}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Evolución del error absoluto en el tiempo - Regresión no Lineal - Temperatura}}{22}{figure.caption.49}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Distribución de errores absolutos - Regresión no Lineal - Humedad}}{23}{figure.caption.50}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Curva de Validación del Modelo Ridge para Temperatura (variando $\alpha $)}}{23}{figure.caption.52}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (Ridge)}}{24}{figure.caption.53}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Curva de aprendizaje para Temperatura (Ridge)}}{24}{figure.caption.54}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Actual vs Predicho - Ridge (Temperatura)}}{25}{figure.caption.55}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación, Ridge)}}{25}{figure.caption.56}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Evolución del error absoluto en el tiempo - Ridge - Temperatura}}{25}{figure.caption.57}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Distribución de errores absolutos - Ridge - Temperatura}}{26}{figure.caption.58}%
-\contentsline {figure}{\numberline {53}{\ignorespaces Curva de Validación del Modelo Ridge para Humedad (variando $\alpha $)}}{26}{figure.caption.60}%
-\contentsline {figure}{\numberline {54}{\ignorespaces Curva de paridad de la Humedad real vs la predicha (Ridge)}}{27}{figure.caption.61}%
-\contentsline {figure}{\numberline {55}{\ignorespaces Curva de aprendizaje para Humedad (Ridge)}}{27}{figure.caption.62}%
-\contentsline {figure}{\numberline {56}{\ignorespaces Actual vs Predicho - Ridge (Humedad)}}{28}{figure.caption.63}%
-\contentsline {figure}{\numberline {57}{\ignorespaces Serie temporal de Humedad real vs predicha (validación, Ridge)}}{28}{figure.caption.64}%
-\contentsline {figure}{\numberline {58}{\ignorespaces Evolución del error absoluto en el tiempo - Ridge - Humedad}}{28}{figure.caption.65}%
-\contentsline {figure}{\numberline {59}{\ignorespaces Distribución de errores absolutos - Ridge - Humedad}}{29}{figure.caption.66}%
-\contentsline {figure}{\numberline {60}{\ignorespaces Curva de Validación del Modelo Lasso para Temperatura (variando $\alpha $)}}{29}{figure.caption.68}%
-\contentsline {figure}{\numberline {61}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (Lasso)}}{30}{figure.caption.69}%
-\contentsline {figure}{\numberline {62}{\ignorespaces Curva de aprendizaje para Temperatura (Lasso)}}{30}{figure.caption.70}%
-\contentsline {figure}{\numberline {63}{\ignorespaces Actual vs Predicho - Lasso (Temperatura)}}{31}{figure.caption.71}%
-\contentsline {figure}{\numberline {64}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación, Lasso)}}{31}{figure.caption.72}%
-\contentsline {figure}{\numberline {65}{\ignorespaces Evolución del error absoluto en el tiempo - Lasso - Temperatura}}{31}{figure.caption.73}%
-\contentsline {figure}{\numberline {66}{\ignorespaces Distribución de errores absolutos - Lasso - Temperatura}}{32}{figure.caption.74}%
-\contentsline {figure}{\numberline {67}{\ignorespaces Curva de Validación del Modelo Lasso para Humedad (variando $\alpha $)}}{32}{figure.caption.76}%
-\contentsline {figure}{\numberline {68}{\ignorespaces Curva de paridad de la Humedad real vs la predicha (Lasso)}}{33}{figure.caption.77}%
-\contentsline {figure}{\numberline {69}{\ignorespaces Curva de aprendizaje para Humedad (Lasso)}}{33}{figure.caption.78}%
-\contentsline {figure}{\numberline {70}{\ignorespaces Actual vs Predicho - Lasso (Humedad)}}{34}{figure.caption.79}%
-\contentsline {figure}{\numberline {71}{\ignorespaces Serie temporal de Humedad real vs predicha (validación, Lasso)}}{34}{figure.caption.80}%
-\contentsline {figure}{\numberline {72}{\ignorespaces Evolución del error absoluto en el tiempo - Lasso - Humedad}}{34}{figure.caption.81}%
-\contentsline {figure}{\numberline {73}{\ignorespaces Distribución de errores absolutos - Lasso - Humedad}}{35}{figure.caption.82}%
-\contentsline {figure}{\numberline {74}{\ignorespaces Curva de Validación del Modelo ElasticNet para Temperatura (variando $\alpha $ y $l1\_ratio$)}}{35}{figure.caption.84}%
-\contentsline {figure}{\numberline {75}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (ElasticNet)}}{36}{figure.caption.85}%
-\contentsline {figure}{\numberline {76}{\ignorespaces Curva de aprendizaje para Temperatura (ElasticNet)}}{36}{figure.caption.86}%
-\contentsline {figure}{\numberline {77}{\ignorespaces Actual vs Predicho - ElasticNet (Temperatura)}}{37}{figure.caption.87}%
-\contentsline {figure}{\numberline {78}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación, ElasticNet)}}{37}{figure.caption.88}%
-\contentsline {figure}{\numberline {79}{\ignorespaces Evolución del error absoluto en el tiempo - ElasticNet - Temperatura}}{37}{figure.caption.89}%
-\contentsline {figure}{\numberline {80}{\ignorespaces Distribución de errores absolutos - ElasticNet - Temperatura}}{38}{figure.caption.90}%
-\contentsline {figure}{\numberline {81}{\ignorespaces Curva de Validación del Modelo ElasticNet para Humedad (variando $\alpha $ y $l1\_ratio$)}}{38}{figure.caption.92}%
-\contentsline {figure}{\numberline {82}{\ignorespaces Curva de paridad de la Humedad real vs la predicha (ElasticNet)}}{39}{figure.caption.93}%
-\contentsline {figure}{\numberline {83}{\ignorespaces Curva de aprendizaje para Humedad (ElasticNet)}}{39}{figure.caption.94}%
-\contentsline {figure}{\numberline {84}{\ignorespaces Actual vs Predicho - ElasticNet (Humedad)}}{40}{figure.caption.95}%
-\contentsline {figure}{\numberline {85}{\ignorespaces Serie temporal de Humedad real vs predicha (validación, ElasticNet)}}{40}{figure.caption.96}%
-\contentsline {figure}{\numberline {86}{\ignorespaces Evolución del error absoluto en el tiempo - ElasticNet - Humedad}}{40}{figure.caption.97}%
-\contentsline {figure}{\numberline {87}{\ignorespaces Distribución de errores absolutos - ElasticNet - Humedad}}{41}{figure.caption.98}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Distribución de errores absolutos - Regresión Lineal - Humedad}}{17}{figure.caption.34}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Curva de Validación del Modelo Polinómico para Temperatura}}{18}{figure.caption.36}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (Polinómica)}}{18}{figure.caption.37}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Curva de aprendizaje para Temperatura (Polinómica)}}{19}{figure.caption.38}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Actual vs Predicho - Regresión Polinómica (Temperatura)}}{19}{figure.caption.39}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación, Polinómica)}}{20}{figure.caption.40}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Evolución del error absoluto en el tiempo - Regresión Polinómica - Temperatura}}{20}{figure.caption.41}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Distribución de errores absolutos - Regresión Polinómica - Temperatura}}{20}{figure.caption.42}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Curva de Validación del Modelo no Lineal para Humedad}}{21}{figure.caption.44}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Curva de paridad de la Humedad real vs la predicha (Regresión no Lineal)}}{22}{figure.caption.45}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Curva de aprendizaje para Humedad (Regresión no Lineal)}}{22}{figure.caption.46}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Actual vs Predicho - Regresión no Lineal (Humedad)}}{23}{figure.caption.47}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Serie temporal de Humedad real vs predicha (validación, Regresión no Lineal)}}{23}{figure.caption.48}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Evolución del error absoluto en el tiempo - Regresión no Lineal - Humedad}}{23}{figure.caption.49}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Distribución de errores absolutos - Regresión no Lineal - Humedad}}{24}{figure.caption.50}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Curva de Validación del Modelo Ridge para Temperatura (variando $\alpha $)}}{25}{figure.caption.52}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (Ridge)}}{25}{figure.caption.53}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Curva de aprendizaje para Temperatura (Ridge)}}{26}{figure.caption.54}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Actual vs Predicho - Ridge (Temperatura)}}{26}{figure.caption.55}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación, Ridge)}}{27}{figure.caption.56}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Evolución del error absoluto en el tiempo - Ridge - Temperatura}}{27}{figure.caption.57}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Distribución de errores absolutos - Ridge - Temperatura}}{27}{figure.caption.58}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Curva de Validación del Modelo Ridge para Humedad (variando $\alpha $)}}{28}{figure.caption.60}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Curva de paridad de la Humedad real vs la predicha (Ridge)}}{28}{figure.caption.61}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Curva de aprendizaje para Humedad (Ridge)}}{29}{figure.caption.62}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Actual vs Predicho - Ridge (Humedad)}}{29}{figure.caption.63}%
+\contentsline {figure}{\numberline {57}{\ignorespaces Serie temporal de Humedad real vs predicha (validación, Ridge)}}{30}{figure.caption.64}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Evolución del error absoluto en el tiempo - Ridge - Humedad}}{30}{figure.caption.65}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Distribución de errores absolutos - Ridge - Humedad}}{30}{figure.caption.66}%
+\contentsline {figure}{\numberline {60}{\ignorespaces Curva de Validación del Modelo Lasso para Temperatura (variando $\alpha $)}}{31}{figure.caption.68}%
+\contentsline {figure}{\numberline {61}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (Lasso)}}{31}{figure.caption.69}%
+\contentsline {figure}{\numberline {62}{\ignorespaces Curva de aprendizaje para Temperatura (Lasso)}}{32}{figure.caption.70}%
+\contentsline {figure}{\numberline {63}{\ignorespaces Actual vs Predicho - Lasso (Temperatura)}}{32}{figure.caption.71}%
+\contentsline {figure}{\numberline {64}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación, Lasso)}}{33}{figure.caption.72}%
+\contentsline {figure}{\numberline {65}{\ignorespaces Evolución del error absoluto en el tiempo - Lasso - Temperatura}}{33}{figure.caption.73}%
+\contentsline {figure}{\numberline {66}{\ignorespaces Distribución de errores absolutos - Lasso - Temperatura}}{33}{figure.caption.74}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Curva de Validación del Modelo Lasso para Humedad (variando $\alpha $)}}{34}{figure.caption.76}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Curva de paridad de la Humedad real vs la predicha (Lasso)}}{34}{figure.caption.77}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Curva de aprendizaje para Humedad (Lasso)}}{35}{figure.caption.78}%
+\contentsline {figure}{\numberline {70}{\ignorespaces Actual vs Predicho - Lasso (Humedad)}}{35}{figure.caption.79}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Serie temporal de Humedad real vs predicha (validación, Lasso)}}{36}{figure.caption.80}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Evolución del error absoluto en el tiempo - Lasso - Humedad}}{36}{figure.caption.81}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Distribución de errores absolutos - Lasso - Humedad}}{36}{figure.caption.82}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Curva de Validación del Modelo ElasticNet para Temperatura (variando $\alpha $ y $l1\_ratio$)}}{37}{figure.caption.84}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Curva de paridad de la Temperatura real vs la predicha (ElasticNet)}}{37}{figure.caption.85}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Curva de aprendizaje para Temperatura (ElasticNet)}}{38}{figure.caption.86}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Actual vs Predicho - ElasticNet (Temperatura)}}{38}{figure.caption.87}%
+\contentsline {figure}{\numberline {78}{\ignorespaces Serie temporal de Temperatura real vs predicha (validación, ElasticNet)}}{39}{figure.caption.88}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Evolución del error absoluto en el tiempo - ElasticNet - Temperatura}}{39}{figure.caption.89}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Distribución de errores absolutos - ElasticNet - Temperatura}}{39}{figure.caption.90}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Curva de Validación del Modelo ElasticNet para Humedad (variando $\alpha $ y $l1\_ratio$)}}{40}{figure.caption.92}%
+\contentsline {figure}{\numberline {82}{\ignorespaces Curva de paridad de la Humedad real vs la predicha (ElasticNet)}}{40}{figure.caption.93}%
+\contentsline {figure}{\numberline {83}{\ignorespaces Curva de aprendizaje para Humedad (ElasticNet)}}{41}{figure.caption.94}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Actual vs Predicho - ElasticNet (Humedad)}}{41}{figure.caption.95}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Serie temporal de Humedad real vs predicha (validación, ElasticNet)}}{42}{figure.caption.96}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Evolución del error absoluto en el tiempo - ElasticNet - Humedad}}{42}{figure.caption.97}%
+\contentsline {figure}{\numberline {87}{\ignorespaces Distribución de errores absolutos - ElasticNet - Humedad}}{42}{figure.caption.98}%

@@ -21,8 +21,13 @@
     \centering
     \includegraphics[width=0.9\linewidth]{cccc.png}
     \caption{Enter Caption}
-    \label{fig:placeholder}
+    \label{fig:toma_de_datos_generales}
 \end{figure}
+
+\textbf{Comentario sobre el mostrado de datos:} 
+El gráfico general de los datos recolectados permite observar el comportamiento de la temperatura y la humedad en el tiempo, mostrando su variabilidad y tendencia general. Este paso fue fundamental para identificar patrones iniciales, posibles valores atípicos y la correlación entre ambas variables antes de aplicar los diferentes modelos predictivos. La visualización confirma que la temperatura y la humedad tienen comportamientos inversamente proporcionales en ciertos intervalos, lo que respalda la coherencia de los datos obtenidos con el sensor y justifica su uso en los modelos posteriores.
+
+
 
 \section{KERNEL RIDGE - Curva de Validación de los datos}
 
@@ -38,9 +43,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{curav de validacion temperatura.png}
+    \includegraphics[width=0.5\linewidth]{curva kernel temp.png}
     \caption{Curva de Validación del Modelo para Temperatura}
-    \label{fig:placeholder}
+    \label{fig:curva_de_validacion_temp_ker_ridge}
 \end{figure}
 
 
@@ -64,7 +69,7 @@ R\textsuperscript{2} Validación (Humedad): 0.5157\\
     \centering
     \includegraphics[width=0.5\linewidth]{pariedad temperatura.png}
     \caption{Gráfica de pariedad de la Temperatura real vs la predicha}
-    \label{fig:placeholder}
+    \label{fig:pariedad_temp_kerne}
 \end{figure}
 
 \noindent \textbf{ENTRENANDO MODELO PARA TEMPERATURA}\\
@@ -211,6 +216,10 @@ Error máximo: 0.3572%\\
 Error mínimo: 0.0002%\\
 Desviación estándar del error: 0.0625%\\
 
+\vspace{1em}
+\textbf{Comentario/análisis - Kernel Ridge:}
+El modelo \textit{Kernel Ridge} logró un ajuste adecuado para la temperatura (R$^2$ = 0.8488), evidenciando buena capacidad predictiva y bajo error promedio. Sin embargo, para la humedad el modelo presentó sobreajuste, lo que indica que aprendió demasiado bien los patrones del conjunto de entrenamiento pero no generalizó correctamente. Esto se observa en la brecha entre el error de entrenamiento y validación. Aun así, es uno de los métodos con mejor desempeño para temperatura dentro del conjunto analizado.
+
 % ======================= REGRESIÓN LINEAL =======================
 
 \section{Regresión Lineal - Temperatura}
@@ -324,8 +333,6 @@ R\textsuperscript{2} Validación: 0.692\\
     \end{tabular}
 \end{table}
 
-\noindent Comentario/análisis: ...\\
-
 % ======================= REGRESIÓN LINEAL - HUMEDAD =======================
 
 \section{Regresión Lineal - Humedad}
@@ -431,8 +438,11 @@ R\textsuperscript{2} Validación: 0.4131\\
         \bottomrule
     \end{tabular}
 \end{table}
+\vspace{1em}
+\textbf{Comentario/análisis - Regresión Lineal:}
+El modelo lineal tuvo un desempeño sólido en la predicción de temperatura (R$^2$ = 0.6920), mostrando una buena generalización y estabilidad en las métricas. En cambio, para humedad el resultado fue más limitado (R$^2$ = 0.4131), lo que indica que la relación entre las variables podría no ser estrictamente lineal. En conjunto, los resultados muestran que la regresión lineal es eficiente para relaciones directas, pero insuficiente en contextos con mayor complejidad.
 
-\noindent Comentario/análisis: ...\\
+
 
 % ======================= REGRESIÓN POLINÓMICA =======================
 
@@ -525,8 +535,6 @@ R\textsuperscript{2} Validación: 0.7761\\
     \end{tabular}
 \end{table}
 
-\noindent Comentario/análisis: [comentario notebook]\\
-
 % ======================= REGRESIÓN POLINÓMICA - HUMEDAD =======================
 
 \section{Regresión no Lineal- Humedad}
@@ -589,8 +597,8 @@ El modelo es demasiado simple para los datos.\\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{img/error_abs_evol_poly_hum.png}
-    \caption{Evolución del error absoluto en el tiempo - Regresión no Lineal - Temperatura}
-    \label{fig:error_abs_evol_poly_temp}
+    \caption{Evolución del error absoluto en el tiempo - Regresión no Lineal - Humedad}
+    \label{fig:error_abs_evol_poly_hum}
 \end{figure}
 
 % Histograma de la distribución de errores absolutos
@@ -618,8 +626,10 @@ El modelo es demasiado simple para los datos.\\
         \bottomrule
     \end{tabular}
 \end{table}
+\vspace{1em}
+\textbf{Comentario/análisis - Regresión No Lineal:}
+La regresión polinómica (grado 3) mejoró el rendimiento frente al modelo lineal, alcanzando R$^2$ de 0.7761 para temperatura y 0.7615 para humedad. Esto demuestra que la inclusión de términos no lineales permite capturar mejor las variaciones del sistema físico. No obstante, se observó una ligera tendencia al subajuste en los datos de validación, lo que sugiere que el modelo podría beneficiarse de un ajuste más fino del grado polinómico o del número de muestras.
 
-\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= RIDGE =======================
 
@@ -713,7 +723,6 @@ R\textsuperscript{2} Validación: 0.613\\
     \end{tabular}
 \end{table}
 
-\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= RIDGE - HUMEDAD =======================
 
@@ -794,8 +803,8 @@ R\textsuperscript{2} Validación: 0.394\\
     \centering
     \caption{Resultados del modelo Ridge (Humedad)}
     \begin{tabular}{@{}lc@{}}
-        	oprule
-        	extbf{Métrica} & \textbf{Ridge} \\
+        	\toprule
+        	\textbf{Métrica} & \textbf{Ridge} \\
         \midrule
         MSE (Test) & 7.2025 \\
         R\textsuperscript{2} (Test) & 0.3939 \\
@@ -806,8 +815,12 @@ R\textsuperscript{2} Validación: 0.394\\
         \bottomrule
     \end{tabular}
 \end{table}
+\vspace{1em}
+	\textbf{Comentario/análisis - Ridge:}\\
+	\textbf{Temperatura:} El modelo Ridge mostró un balance adecuado entre sesgo y varianza, con un R$^2$ de 0.6128. Esto indica que logra generalizar razonablemente bien, manteniendo estabilidad y evitando el sobreajuste.\\
+	\textbf{Humedad:} Para humedad, el modelo presentó subajuste (alto sesgo), reflejado en un R$^2$ bajo (0.3939) y errores relativamente altos. Esto sugiere que la capacidad del modelo es insuficiente para capturar la complejidad de la variable humedad.\\
+	\textit{En conjunto, Ridge es una opción robusta y estable para temperatura, pero puede resultar demasiado simple para predecir humedad en este caso.}
 
-\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= LASSO =======================
 
@@ -901,7 +914,6 @@ R\textsuperscript{2} Validación: 0.0336\\
     \end{tabular}
 \end{table}
 
-\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= LASSO - HUMEDAD =======================
 
@@ -994,8 +1006,12 @@ R\textsuperscript{2} Validación: 0.1465\\
         \bottomrule
     \end{tabular}
 \end{table}
+\vspace{1em}
+	\textbf{Comentario/análisis - Lasso:}\\
+	\textbf{Temperatura:} Lasso penalizó los coeficientes más débiles, pero el rendimiento fue bajo (R$^2$ ≈ 0.03), indicando que eliminó variables relevantes.\\
+	\textbf{Humedad:} Para humedad, el ajuste también fue pobre (R$^2$ ≈ 0.14), reflejando subajuste.\\
+	\textit{A pesar de su bajo desempeño, Lasso es útil para identificar variables poco relevantes en el modelo.}
 
-\noindent Comentario/análisis: [comentario notebook]\\
 
 % ======================= ELASTICNET =======================
 
@@ -1088,8 +1104,6 @@ R\textsuperscript{2} Validación: 0.0582\\
     \end{tabular}
 \end{table}
 
-\noindent Comentario/análisis: [comentario notebook]\\
-
 % ======================= ELASTICNET - HUMEDAD =======================
 
 \section{ElasticNet - Humedad}
@@ -1181,6 +1195,8 @@ R\textsuperscript{2} Validación: 0.1417\\
     \end{tabular}
 \end{table}
 
-\noindent Comentario/análisis: [comentario notebook]\\
-
-
+\vspace{1em}
+	\textbf{Comentario/análisis - ElasticNet:}\\
+	\textbf{Temperatura:} ElasticNet combinó las ventajas de Ridge y Lasso, pero el rendimiento fue moderado (R$^2$ ≈ 0.06), sin destacar en precisión.\\
+	\textbf{Humedad:} Para humedad, el desempeño también fue limitado (R$^2$ ≈ 0.14), mostrando subajuste.\\
+	\textit{ElasticNet es útil para mantener la estabilidad del error y evitar el sobreajuste, aunque no fue el más preciso en este caso.}

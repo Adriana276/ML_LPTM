@@ -1,12 +1,12 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {table}{\numberline {1}{\ignorespaces Resultados del modelo Kernel Ridge}}{7}{table.caption.14}%
 \contentsline {table}{\numberline {2}{\ignorespaces Resultados del modelo Regresión Lineal}}{13}{table.caption.26}%
-\contentsline {table}{\numberline {3}{\ignorespaces Resultados del modelo Regresión Lineal (Humedad)}}{16}{table.caption.35}%
-\contentsline {table}{\numberline {4}{\ignorespaces Resultados del modelo Regresión Polinómica (Temperatura)}}{20}{table.caption.43}%
-\contentsline {table}{\numberline {5}{\ignorespaces Resultados del modelo Regresión no Lineal (Humedad)}}{23}{table.caption.51}%
-\contentsline {table}{\numberline {6}{\ignorespaces Resultados del modelo Ridge (Temperatura)}}{26}{table.caption.59}%
-\contentsline {table}{\numberline {7}{\ignorespaces Resultados del modelo Ridge (Humedad)}}{29}{table.caption.67}%
-\contentsline {table}{\numberline {8}{\ignorespaces Resultados del modelo Lasso (Temperatura)}}{32}{table.caption.75}%
-\contentsline {table}{\numberline {9}{\ignorespaces Resultados del modelo Lasso (Humedad)}}{35}{table.caption.83}%
-\contentsline {table}{\numberline {10}{\ignorespaces Resultados del modelo ElasticNet (Temperatura)}}{38}{table.caption.91}%
-\contentsline {table}{\numberline {11}{\ignorespaces Resultados del modelo ElasticNet (Humedad)}}{41}{table.caption.99}%
+\contentsline {table}{\numberline {3}{\ignorespaces Resultados del modelo Regresión Lineal (Humedad)}}{17}{table.caption.35}%
+\contentsline {table}{\numberline {4}{\ignorespaces Resultados del modelo Regresión Polinómica (Temperatura)}}{21}{table.caption.43}%
+\contentsline {table}{\numberline {5}{\ignorespaces Resultados del modelo Regresión no Lineal (Humedad)}}{24}{table.caption.51}%
+\contentsline {table}{\numberline {6}{\ignorespaces Resultados del modelo Ridge (Temperatura)}}{27}{table.caption.59}%
+\contentsline {table}{\numberline {7}{\ignorespaces Resultados del modelo Ridge (Humedad)}}{30}{table.caption.67}%
+\contentsline {table}{\numberline {8}{\ignorespaces Resultados del modelo Lasso (Temperatura)}}{33}{table.caption.75}%
+\contentsline {table}{\numberline {9}{\ignorespaces Resultados del modelo Lasso (Humedad)}}{36}{table.caption.83}%
+\contentsline {table}{\numberline {10}{\ignorespaces Resultados del modelo ElasticNet (Temperatura)}}{39}{table.caption.91}%
+\contentsline {table}{\numberline {11}{\ignorespaces Resultados del modelo ElasticNet (Humedad)}}{42}{table.caption.99}%

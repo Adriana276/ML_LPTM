@@ -517,12 +517,12 @@ INPUT .\img\\entreamiento-humedad.png
 INPUT .\img\\entreamiento-humedad.png
 INPUT .\img\\entreamiento-humedad.png
 INPUT .\img\\entreamiento-humedad.png
-INPUT .\img\\curav de validacion temperatura.png
-INPUT .\img\\curav de validacion temperatura.png
-INPUT .\img\\curav de validacion temperatura.png
-INPUT .\img\\curav de validacion temperatura.png
-INPUT .\img\\curav de validacion temperatura.png
-INPUT .\img\\curav de validacion temperatura.png
+INPUT .\img\\curva kernel temp.png
+INPUT .\img\\curva kernel temp.png
+INPUT .\img\\curva kernel temp.png
+INPUT .\img\\curva kernel temp.png
+INPUT .\img\\curva kernel temp.png
+INPUT .\img\\curva kernel temp.png
 INPUT .\img\\grarfica de pariedad.png
 INPUT .\img\\grarfica de pariedad.png
 INPUT .\img\\grarfica de pariedad.png
@@ -597,6 +597,7 @@ INPUT .\img\\xxxx.png
 INPUT .\img\\xxxx.png
 INPUT .\img\\xxxx.png
 INPUT .\img\\xxxx.png
+INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri12.tfm
 INPUT .\img\RLapr.png
 INPUT .\img\RLapr.png
 INPUT .\img\RLapr.png
@@ -1078,6 +1079,7 @@ INPUT .\img\enet_hist_error_temp.png
 INPUT .\img\enet_hist_error_temp.png
 INPUT .\img\enet_hist_error_temp.png
 INPUT .\img\enet_hist_error_temp.png
+INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT .\img\val_enet_hum.png
 INPUT .\img\val_enet_hum.png
 INPUT .\img\val_enet_hum.png
@@ -1147,5 +1149,7 @@ INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pf
 INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
+INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\adria\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
